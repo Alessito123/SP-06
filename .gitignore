@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.env
+results/
+*.csv
+!/wdi_mortality.csv
+!/sp06_crisp/wdi_mortality.csv
