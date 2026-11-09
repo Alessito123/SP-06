@@ -74,10 +74,10 @@ def forecast_chart(history, predictions):
     return (area + lines).properties(height=330)
 
 
-def shap_values(search, background, inputs):
+def shap_values(model, background, inputs):
     import shap
 
-    fitted = search.best_estimator_
+    fitted = getattr(model, "best_estimator_", model)
     if hasattr(fitted, "steps"):
         transform = fitted[:-1]
         explanation = shap.LinearExplainer(fitted.steps[-1][1], transform.transform(background))

@@ -36,6 +36,11 @@ READING = {
     "prueba-tabla": "Contrasta el observado con ambos pronósticos y revisa si cae dentro de los límites.",
     "pronostico": "Lee el último año y los extremos de su barra vertical.",
     "shap-local": "Lee el signo y la magnitud de cada barra en relación con cero.",
+    "particion": "Compara los periodos cronológicos y el número de filas elegibles en cada bloque.",
+    "optuna-avance": "Sigue cada búsqueda de izquierda a derecha. Una caída indica que se encontró un menor error.",
+    "optuna-distribucion": "Compara las medianas y los cuartiles del error por modelo.",
+    "optuna-trials": "Filtra por fold y modelo para revisar los parámetros y el estado de cada trial.",
+    "optuna-importancia": "Compara la magnitud de la asociación entre el parámetro y el error dentro de una búsqueda.",
 }
 
 
@@ -54,10 +59,18 @@ def show_chart(slug, note, chart, **kwargs):
         st.download_button("HTML interactivo", html, f"sp06-{slug}.html", "text/html",
                            key=f"download-{slug}", on_click="ignore")
         if st.button("Preparar PNG", key=f"png-{slug}"):
-            import vl_convert as vlc
+            from io import BytesIO
 
-            png = vlc.vegalite_to_png(chart.to_dict(), scale=2)
-            st.download_button("Descargar PNG", png, f"sp06-{slug}.png", "image/png",
+            import vl_convert as vlc
+            from PIL import Image
+
+            spec = chart.to_dict()
+            sample = Image.open(BytesIO(vlc.vegalite_to_png(spec)))
+            rendered = Image.open(BytesIO(vlc.vegalite_to_png(spec, scale=3600 / sample.width)))
+            image = rendered.resize((3600, round(rendered.height * 3600 / rendered.width)), Image.Resampling.LANCZOS)
+            output = BytesIO()
+            image.save(output, format="PNG", dpi=(600, 600))
+            st.download_button("Descargar PNG · 600 DPI", output.getvalue(), f"sp06-{slug}.png", "image/png",
                                key=f"download-png-{slug}", on_click="ignore")
 
 
@@ -89,6 +102,10 @@ def build_report(kind, country, metadata, metrics, folds, scores, predictions, c
     png = vlc.vegalite_to_png(chart.properties(width=650).to_dict(), scale=1.4)
     output = BytesIO()
     title = f"Informe de mortalidad prematura en {country}"
+    period = metadata.get("prueba_reservada", {}).get("años", [2018, 2021])
+    interpretation = INTERPRETATION.replace("2018–2021", f"{period[0]}–{period[-1]}")
+    reading = "Interpretabilidad: compara los errores del modelo y de persistencia. En el gráfico, revisa si el observado cae dentro de la banda."
+    explanation = f"Explicación: {interpretation}"
     summary = [
         f"Fuente OMS / Banco Mundial · SH.DYN.NCOM.ZS · {metadata['fuente']}",
         f"Modelo ajustado {metadata['modelo_ajustado']}",
@@ -116,7 +133,8 @@ def build_report(kind, country, metadata, metrics, folds, scores, predictions, c
         story.extend(Paragraph(escape(line), styles["BodyText"]) for line in summary)
         story.extend([Spacer(1, 14), Paragraph("Prueba reservada", styles["Heading2"]), metrics_table,
                       Spacer(1, 12), Image(BytesIO(png), width=440, height=250, kind="proportional"),
-                      Paragraph(INTERPRETATION, styles["BodyText"])])
+                      Paragraph(reading, styles["BodyText"]),
+                      Paragraph(explanation, styles["BodyText"])])
         SimpleDocTemplate(output).build(story)
         return output.getvalue(), "pdf", "application/pdf"
 
@@ -137,7 +155,8 @@ def build_report(kind, country, metadata, metrics, folds, scores, predictions, c
             left, right = table.add_row().cells
             left.text, right.text = name, value
         document.add_picture(BytesIO(png), width=Inches(6))
-        document.add_paragraph(INTERPRETATION)
+        document.add_paragraph(reading)
+        document.add_paragraph(explanation)
         document.save(output)
         return output.getvalue(), "docx", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
 
@@ -155,10 +174,11 @@ def build_report(kind, country, metadata, metrics, folds, scores, predictions, c
     overview.append(["Informe", title])
     for line in summary:
         overview.append([line])
-    overview.append([INTERPRETATION])
+    overview.append([reading])
+    overview.append([explanation])
     image = Image(BytesIO(png))
     image.width, image.height = 660, 350
-    overview.add_image(image, "A16")
+    overview.add_image(image, f"A{overview.max_row + 2}")
     overview.column_dimensions["A"].width = 34
     overview.column_dimensions["B"].width = 22
     for name, frame in [("Folds", folds), ("Validación", scores), ("Predicciones", predictions)]:

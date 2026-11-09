@@ -2,7 +2,26 @@
 
 El [protocolo](PROTOCOLO.md) contiene el plan científico, el cálculo muestral, las arquitecturas, la armonización y el diccionario del CSV. El proyecto comienza con un panel armonizado o con datos simulados.
 
-## Entrega docente en siete fases
+## Despliegue CRISP-DM y protocolo de siete fases
+
+```powershell
+.\.venv\Scripts\python -m pip install -r sp06_crisp/requirements.txt
+.\.venv\Scripts\python -m streamlit run sp06_crisp/app.py --server.address 127.0.0.1 --server.port 8502
+```
+
+La opción **Protocolo de siete fases** abre datos y EDA, entrenamiento, evaluación, SHAP, reportes, motor y Optuna. **CRISP-DM histórico** conserva el diseño previo de la aplicación del puerto 8502. La aplicación del puerto 8501 tiene un punto de entrada independiente.
+
+En el protocolo nuevo, el panel público se divide por años completos mediante el método de mayores restos. Para 2000–2021 resultan 16 años de desarrollo (2000–2015), tres de validación (2016–2018) y tres de prueba (2019–2021). Las primeras filas de cada país quedan fuera del ajuste cuando faltan rezagos. La selección usa cinco folds externos por país con corte temporal y tres folds internos por país con Optuna. El modelo ajustado se calibra con validación y se compara con persistencia sobre la prueba reservada, a un paso y con los valores previos disponibles.
+
+Configura la búsqueda en **7. Optuna** y ejecuta **Entrenar y guardar corrida**. Los artefactos locales se escriben en `sp06_crisp/runs/`. Cada corrida incluye el manifiesto, las particiones, las puntuaciones, los trials y el modelo serializado en formato Skops o JSON nativo de XGBoost. La fase **6. Motor** muestra el comando equivalente para volver a generar un pronóstico sin entrenar:
+
+```powershell
+.\.venv\Scripts\python sp06_crisp/engine.py <id-de-corrida> PER 2022
+```
+
+Para un panel importado, conserva el CSV original y pásalo con `--csv`. El motor verifica que la huella del archivo y las versiones instaladas correspondan al manifiesto. **Sustentación** enlaza las siete vistas. La integración de DeepSeek Harness requiere una especificación externa del docente y no interviene en este flujo de entrenamiento.
+
+## Entrega docente en el despliegue original
 
 | Fase | Entrega | Estado |
 | --- | --- | --- |

@@ -17,6 +17,12 @@ def trained_run(panel):
 
 
 st.set_page_config(page_title="SP-06 · CRISP-DM", layout="wide")
+workflow = st.sidebar.radio("Versión del estudio", ["Protocolo de siete fases", "CRISP-DM histórico"])
+if workflow == "Protocolo de siete fases":
+    from workflow import render
+
+    render()
+    st.stop()
 st.html("""<div style="background:linear-gradient(115deg,#102a43,#087e8b);color:white;
 padding:1.7rem 2rem;border-radius:16px;margin-bottom:1.4rem">
 <div style="font-size:.85rem;letter-spacing:.12em">SP-06 · OBSERVATORIO DE MORTALIDAD</div>
