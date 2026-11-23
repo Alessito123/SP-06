@@ -24,7 +24,7 @@ Se comparan tres rezagos, cinco rezagos y cinco rezagos con diferencia, cambio r
 
 ## Calibración
 
-Se comparan cuantiles empíricos, rango conformal agrupado y máximos por bloque anual. Cada evaluación anual usa errores de años estrictamente anteriores. intervals.csv conserva cobertura y ancho por país y año. Con pocos bloques, el rango conformal puede exceder el tamaño muestral y se marca finite_rank_capped. Los resultados con rango truncado son exploratorios. La dependencia entre países y el cambio temporal impiden una garantía automática de cobertura. Los análisis 2020–2021 y la calibración condicional por país quedan como extensión retrospectiva independiente del ranking de desarrollo.
+Se comparan cuantiles empíricos, rango conformal agrupado y máximos por bloque anual. Cada evaluación anual usa errores de años estrictamente anteriores. intervals.csv conserva cobertura y ancho por país y año. Con pocos bloques, el rango conformal puede exceder el tamaño muestral. La regla corregida devuelve toda la región válida 0–100 % y marca full_support_due_to_small_n. recalibrate.py aplica esta corrección de intervalos a las predicciones ya generadas. Los métodos pooled dependen de supuestos de intercambiabilidad que el panel temporal puede incumplir. La dependencia entre países y el cambio temporal impiden una garantía automática de cobertura. Los análisis 2020–2021 y la calibración condicional por país quedan como extensión retrospectiva independiente del ranking de desarrollo.
 
 ## Límites de la auditoría
 
@@ -32,8 +32,22 @@ La incertidumbre del bootstrap corresponde al remuestreo de países condicionado
 
 La página editorial de RPMESP no estuvo disponible durante la consulta directa. Deben verificarse los límites de extensión, referencias y elementos gráficos en las instrucciones vigentes antes del envío. El manuscrito deberá distinguir el protocolo histórico, el análisis exploratorio nuevo y una eventual confirmación independiente.
 
+La consulta de los 20 países, conservada en new_data_check_all.json, encontró 2021 como último año en todos ellos. La actualización general de WDI del 11 de noviembre de 2026 no implica nuevos años para este indicador.
+
+El lote examined_baselines agrega un análisis retrospectivo de cobertura hasta 2021 únicamente para referencias fijas. Su configuración se guarda aparte y sus resultados no forman parte del ranking de desarrollo. Las advertencias de convergencia de ARIMA requieren revisar los ajustes individuales antes de atribuir utilidad al método.
+
+El primer intento de ablación se interrumpió por sobrecarga de hilos OpenMP. Se conserva en ablations-interrupted y se repitió con OMP_NUM_THREADS=1, MKL_NUM_THREADS=1 y OPENBLAS_NUM_THREADS=1. El lote trees-interrupted conserva el intento de 30 ensayos de bosque aleatorio. Únicamente sus experimentos de diez ensayos con seis orígenes completos se recuperan en forest. Los parciales se excluyen del resumen. Para los demás árboles se limitó el lote a diez ensayos por búsqueda. El lote forest_both completa nivel y diferencias de bosque aleatorio con diez ensayos. Quedan pendientes 30 y 60 en estos algoritmos.
+
 ## Reproducción
 
 Ejecutar python sp06_crisp/research.py --output CARPETA_NUEVA. Los argumentos --models, --budgets y --features permiten establecer explícitamente el lote. Los directorios de salida existentes se rechazan para conservar resultados previos. Cada directorio contiene predictions.csv, experiments.csv, intervals.csv, trials.jsonl para modelos ajustables y manifest.json.
 
 Ejecutar python -m unittest discover -s sp06_crisp -p "test_*.py" para verificar límites, variables pasadas, unidades, duplicados y recuperación de persistencia.
+
+## Organización de módulos de investigación
+
+research_features.py construye exclusivamente variables históricas. research_models.py define referencias y espacios de búsqueda. research_calibration.py implementa el cuantil y su caso de muestra insuficiente. research.py coordina optimización temporal, predicciones y métricas. protocol_v2.py conserva la ingesta validada y la evaluación geográfica usada por la app. science/compile_results.py exporta comparaciones, errores, estabilidad y figuras. science/recalibrate.py conserva las predicciones y revisa únicamente las bandas con la regla de soporte completo.
+
+El código ejecutado durante los lotes se archiva en executed_sources.zip y bounded_sources.zip. Los manifiestos indican la huella del archivo de ejecución anterior a esta extracción de funciones. La extracción mantiene los mismos cálculos. El manifiesto de intervalos registra por separado la corrección del rango conformal.
+
+Para limitar hilos en Windows, configurar OMP_NUM_THREADS=1, MKL_NUM_THREADS=1 y OPENBLAS_NUM_THREADS=1 antes de iniciar Python. El número de ensayos es el presupuesto principal, sin timeout en los lotes de investigación.

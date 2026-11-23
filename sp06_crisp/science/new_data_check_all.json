@@ -1,0 +1,33 @@
+{
+  "url": "https://api.worldbank.org/v2/country/ARG;BOL;BRA;CHL;COL;CRI;CUB;DOM;ECU;SLV;GTM;HTI;HND;MEX;NIC;PAN;PRY;PER;URY;VEN/indicator/SH.DYN.NCOM.ZS?format=json&source=2&per_page=2000&date=2000:2026",
+  "metadata": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 2000,
+    "total": 520,
+    "sourceid": "2",
+    "lastupdated": "2026-11-11"
+  },
+  "last_year_by_country": {
+    "ARG": 2021,
+    "BOL": 2021,
+    "BRA": 2021,
+    "CHL": 2021,
+    "COL": 2021,
+    "CRI": 2021,
+    "CUB": 2021,
+    "DOM": 2021,
+    "ECU": 2021,
+    "GTM": 2021,
+    "HND": 2021,
+    "HTI": 2021,
+    "MEX": 2021,
+    "NIC": 2021,
+    "PAN": 2021,
+    "PER": 2021,
+    "PRY": 2021,
+    "SLV": 2021,
+    "URY": 2021,
+    "VEN": 2021
+  }
+}

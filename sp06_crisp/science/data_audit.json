@@ -20,5 +20,6 @@
     "utf-8'\\r\\n'": "a0556b00767935eb7f9b42a690126df9934531a0e16576a42ee3895f71fcbf6d",
     "utf-8-sig'\\n'": "a3caa7bbd6febd418c5b0827a7881d1b9561fa3c6a5405a146255edb97dbbb62",
     "utf-8-sig'\\r\\n'": "fe4d18b6c5b901ae2bcf402db61d02a9f245a713a4d3e00e6bde474db1502449"
-  }
+  },
+  "original_git_blob_sha256": "26cc4eb59d77493b19d4a0e3d71a3024401c767cd46892f27bcc532d21ac0d70"
 }

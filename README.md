@@ -1,5 +1,10 @@
 # SP-06
 
+La rama de auditoría RPMESP documenta su protocolo y limitaciones en
+[science/AUDITORIA.md](sp06_crisp/science/AUDITORIA.md). Los experimentos nuevos
+rolling-origin se ejecutan con research.py y conservan el periodo 2019–2021 como
+previamente examinado. Las tasas del protocolo histórico se documentan por separado.
+
 El [protocolo](PROTOCOLO.md) contiene el plan científico, el cálculo muestral, las arquitecturas, la armonización y el diccionario del CSV. El proyecto comienza con un panel armonizado o con datos simulados.
 
 ## Despliegue CRISP-DM y protocolo de siete fases

@@ -6,3 +6,4 @@ sp06_crisp/runs/
 *.csv
 !/wdi_mortality.csv
 !/sp06_crisp/wdi_mortality.csv
+!/sp06_crisp/science/**/*.csv

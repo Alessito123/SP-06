@@ -1,0 +1,781 @@
+experiment,method,year,coverage,width,cells
+ARIMA-lag3-level-0,empirical,2015,0.9,1.0,20
+ARIMA-lag3-level-0,empirical,2016,0.75,1.0,20
+ARIMA-lag3-level-0,empirical,2017,0.7,1.085351081852039,20
+ARIMA-lag3-level-0,empirical,2018,0.9,1.2318441655060783,20
+ARIMA-lag3-level-0,pooled_conformal,2015,0.9,1.085351081852039,20
+ARIMA-lag3-level-0,pooled_conformal,2016,0.85,1.085351081852039,20
+ARIMA-lag3-level-0,pooled_conformal,2017,0.75,1.111387119575916,20
+ARIMA-lag3-level-0,pooled_conformal,2018,0.9,1.2915608813496038,20
+ARIMA-lag3-level-0,year_block_conformal,2015,1.0,100.0,20
+ARIMA-lag3-level-0,year_block_conformal,2016,1.0,100.0,20
+ARIMA-lag3-level-0,year_block_conformal,2017,1.0,100.0,20
+ARIMA-lag3-level-0,year_block_conformal,2018,1.0,100.0,20
+CatBoost-lag3-difference-10,empirical,2015,0.95,1.1219111385229437,20
+CatBoost-lag3-difference-10,empirical,2016,0.85,1.0810033822411924,20
+CatBoost-lag3-difference-10,empirical,2017,0.7,1.1219111385229428,20
+CatBoost-lag3-difference-10,empirical,2018,0.9,1.247735438288895,20
+CatBoost-lag3-difference-10,pooled_conformal,2015,0.95,1.2198638309521708,20
+CatBoost-lag3-difference-10,pooled_conformal,2016,0.85,1.1219111385229428,20
+CatBoost-lag3-difference-10,pooled_conformal,2017,0.7,1.2198638309521712,20
+CatBoost-lag3-difference-10,pooled_conformal,2018,0.9,1.2507502111140951,20
+CatBoost-lag3-difference-10,year_block_conformal,2015,1.0,100.0,20
+CatBoost-lag3-difference-10,year_block_conformal,2016,1.0,100.0,20
+CatBoost-lag3-difference-10,year_block_conformal,2017,1.0,100.0,20
+CatBoost-lag3-difference-10,year_block_conformal,2018,1.0,100.0,20
+CatBoost-lag3-level-10,empirical,2015,0.9,2.3985652563445115,20
+CatBoost-lag3-level-10,empirical,2016,0.9,2.3985652563445115,20
+CatBoost-lag3-level-10,empirical,2017,0.9,2.3985652563445115,20
+CatBoost-lag3-level-10,empirical,2018,0.95,2.3985652563445115,20
+CatBoost-lag3-level-10,pooled_conformal,2015,0.9,2.530516309158301,20
+CatBoost-lag3-level-10,pooled_conformal,2016,0.9,2.530516309158301,20
+CatBoost-lag3-level-10,pooled_conformal,2017,0.9,2.530516309158301,20
+CatBoost-lag3-level-10,pooled_conformal,2018,0.95,2.530516309158301,20
+CatBoost-lag3-level-10,year_block_conformal,2015,1.0,100.0,20
+CatBoost-lag3-level-10,year_block_conformal,2016,1.0,100.0,20
+CatBoost-lag3-level-10,year_block_conformal,2017,1.0,100.0,20
+CatBoost-lag3-level-10,year_block_conformal,2018,1.0,100.0,20
+Deriva amortiguada-lag3-level-0,empirical,2015,0.95,1.0999999999999943,20
+Deriva amortiguada-lag3-level-0,empirical,2016,0.8,1.0333333333333354,20
+Deriva amortiguada-lag3-level-0,empirical,2017,0.7,1.0999999999999943,20
+Deriva amortiguada-lag3-level-0,empirical,2018,0.85,1.166666666666668,20
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,0.95,1.100000000000001,20
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,0.85,1.0999999999999943,20
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,0.7,1.1000000000000014,20
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,0.85,1.2333333333333272,20
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,1.0,100.0,20
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,1.0,100.0,20
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,1.0,100.0,20
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,1.0,100.0,20
+ETS-lag3-level-0,empirical,2015,0.8,1.0111630514319034,20
+ETS-lag3-level-0,empirical,2016,0.6,1.0487644644148806,20
+ETS-lag3-level-0,empirical,2017,0.85,1.3835807653045156,20
+ETS-lag3-level-0,empirical,2018,0.9,1.4234031418698723,20
+ETS-lag3-level-0,pooled_conformal,2015,0.8,1.0276939572513055,20
+ETS-lag3-level-0,pooled_conformal,2016,0.85,1.3835807653045151,20
+ETS-lag3-level-0,pooled_conformal,2017,0.9,1.5604404113613763,20
+ETS-lag3-level-0,pooled_conformal,2018,0.95,1.5604404113613763,20
+ETS-lag3-level-0,year_block_conformal,2015,1.0,100.0,20
+ETS-lag3-level-0,year_block_conformal,2016,1.0,100.0,20
+ETS-lag3-level-0,year_block_conformal,2017,1.0,100.0,20
+ETS-lag3-level-0,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-engineered-difference-10,empirical,2015,0.9,1.1043654544262655,20
+Elastic Net-engineered-difference-10,empirical,2016,0.85,1.1043654544262647,20
+Elastic Net-engineered-difference-10,empirical,2017,0.75,1.1138597752724524,20
+Elastic Net-engineered-difference-10,empirical,2018,0.85,1.1866666666666674,20
+Elastic Net-engineered-difference-10,pooled_conformal,2015,0.95,1.1866666666666674,20
+Elastic Net-engineered-difference-10,pooled_conformal,2016,0.85,1.1138597752724517,20
+Elastic Net-engineered-difference-10,pooled_conformal,2017,0.8,1.1866666666666674,20
+Elastic Net-engineered-difference-10,pooled_conformal,2018,0.9,1.2983917794826643,20
+Elastic Net-engineered-difference-10,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-engineered-difference-10,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-engineered-difference-10,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-engineered-difference-10,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-engineered-difference-30,empirical,2015,0.9,1.1043654544262649,20
+Elastic Net-engineered-difference-30,empirical,2016,0.85,1.1043654544262647,20
+Elastic Net-engineered-difference-30,empirical,2017,0.75,1.126961038322669,20
+Elastic Net-engineered-difference-30,empirical,2018,0.85,1.1866666666666674,20
+Elastic Net-engineered-difference-30,pooled_conformal,2015,0.95,1.1866666666666672,20
+Elastic Net-engineered-difference-30,pooled_conformal,2016,0.85,1.1269610383226696,20
+Elastic Net-engineered-difference-30,pooled_conformal,2017,0.8,1.1866666666666674,20
+Elastic Net-engineered-difference-30,pooled_conformal,2018,0.85,1.2883344951399494,20
+Elastic Net-engineered-difference-30,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-engineered-difference-30,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-engineered-difference-30,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-engineered-difference-30,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-engineered-difference-60,empirical,2015,0.9,1.1043654544262655,20
+Elastic Net-engineered-difference-60,empirical,2016,0.85,1.1043654544262655,20
+Elastic Net-engineered-difference-60,empirical,2017,0.75,1.1229738817653117,20
+Elastic Net-engineered-difference-60,empirical,2018,0.85,1.1866666666666674,20
+Elastic Net-engineered-difference-60,pooled_conformal,2015,0.95,1.1866666666666674,20
+Elastic Net-engineered-difference-60,pooled_conformal,2016,0.85,1.1229738817653119,20
+Elastic Net-engineered-difference-60,pooled_conformal,2017,0.8,1.1866666666666674,20
+Elastic Net-engineered-difference-60,pooled_conformal,2018,0.85,1.2883344951399494,20
+Elastic Net-engineered-difference-60,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-engineered-difference-60,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-engineered-difference-60,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-engineered-difference-60,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-engineered-level-10,empirical,2015,0.95,3.9329472261205325,20
+Elastic Net-engineered-level-10,empirical,2016,0.85,3.7517164981576236,20
+Elastic Net-engineered-level-10,empirical,2017,0.95,3.7714778295247626,20
+Elastic Net-engineered-level-10,empirical,2018,0.95,3.7517164981576245,20
+Elastic Net-engineered-level-10,pooled_conformal,2015,0.95,4.321126847393856,20
+Elastic Net-engineered-level-10,pooled_conformal,2016,0.9,3.9329472261205325,20
+Elastic Net-engineered-level-10,pooled_conformal,2017,0.95,3.9329472261205325,20
+Elastic Net-engineered-level-10,pooled_conformal,2018,0.95,3.7714778295247617,20
+Elastic Net-engineered-level-10,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-engineered-level-10,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-engineered-level-10,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-engineered-level-10,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-engineered-level-30,empirical,2015,0.95,4.16975530134161,20
+Elastic Net-engineered-level-30,empirical,2016,0.9,3.7598378572810702,20
+Elastic Net-engineered-level-30,empirical,2017,0.95,3.7598378572810702,20
+Elastic Net-engineered-level-30,empirical,2018,0.95,3.75774074645188,20
+Elastic Net-engineered-level-30,pooled_conformal,2015,0.95,4.573163224770838,20
+Elastic Net-engineered-level-30,pooled_conformal,2016,0.9,4.16975530134161,20
+Elastic Net-engineered-level-30,pooled_conformal,2017,0.95,4.16975530134161,20
+Elastic Net-engineered-level-30,pooled_conformal,2018,0.95,3.7598378572810702,20
+Elastic Net-engineered-level-30,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-engineered-level-30,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-engineered-level-30,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-engineered-level-30,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-engineered-level-60,empirical,2015,0.95,3.8910104247617845,20
+Elastic Net-engineered-level-60,empirical,2016,0.9,3.76981734313123,20
+Elastic Net-engineered-level-60,empirical,2017,0.95,3.76981734313123,20
+Elastic Net-engineered-level-60,empirical,2018,0.95,3.7619408771374054,20
+Elastic Net-engineered-level-60,pooled_conformal,2015,0.95,4.16975530134161,20
+Elastic Net-engineered-level-60,pooled_conformal,2016,0.9,3.8910104247617845,20
+Elastic Net-engineered-level-60,pooled_conformal,2017,0.95,3.8910104247617845,20
+Elastic Net-engineered-level-60,pooled_conformal,2018,0.95,3.76981734313123,20
+Elastic Net-engineered-level-60,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-engineered-level-60,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-engineered-level-60,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-engineered-level-60,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-lag3-difference-10,empirical,2015,0.95,1.1862500000000011,20
+Elastic Net-lag3-difference-10,empirical,2016,0.85,1.135924163007019,20
+Elastic Net-lag3-difference-10,empirical,2017,0.8,1.1862500000000011,20
+Elastic Net-lag3-difference-10,empirical,2018,0.85,1.1866666666666674,20
+Elastic Net-lag3-difference-10,pooled_conformal,2015,0.95,1.1866666666666674,20
+Elastic Net-lag3-difference-10,pooled_conformal,2016,0.85,1.1862500000000014,20
+Elastic Net-lag3-difference-10,pooled_conformal,2017,0.8,1.1866666666666674,20
+Elastic Net-lag3-difference-10,pooled_conformal,2018,0.9,1.3357592812767791,20
+Elastic Net-lag3-difference-10,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-lag3-difference-10,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-lag3-difference-10,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-lag3-difference-10,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-lag3-difference-30,empirical,2015,0.95,1.1862500000000011,20
+Elastic Net-lag3-difference-30,empirical,2016,0.85,1.1374362401499591,20
+Elastic Net-lag3-difference-30,empirical,2017,0.8,1.1862500000000011,20
+Elastic Net-lag3-difference-30,empirical,2018,0.85,1.1866666666666674,20
+Elastic Net-lag3-difference-30,pooled_conformal,2015,0.95,1.1866666666666674,20
+Elastic Net-lag3-difference-30,pooled_conformal,2016,0.85,1.1862500000000011,20
+Elastic Net-lag3-difference-30,pooled_conformal,2017,0.8,1.1866666666666674,20
+Elastic Net-lag3-difference-30,pooled_conformal,2018,0.9,1.3358643765429221,20
+Elastic Net-lag3-difference-30,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-lag3-difference-30,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-lag3-difference-30,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-lag3-difference-30,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-lag3-difference-60,empirical,2015,0.95,1.1862500000000011,20
+Elastic Net-lag3-difference-60,empirical,2016,0.85,1.1360198520752287,20
+Elastic Net-lag3-difference-60,empirical,2017,0.8,1.1862500000000011,20
+Elastic Net-lag3-difference-60,empirical,2018,0.85,1.1866666666666674,20
+Elastic Net-lag3-difference-60,pooled_conformal,2015,0.95,1.1866666666666674,20
+Elastic Net-lag3-difference-60,pooled_conformal,2016,0.85,1.1862500000000011,20
+Elastic Net-lag3-difference-60,pooled_conformal,2017,0.8,1.1866666666666674,20
+Elastic Net-lag3-difference-60,pooled_conformal,2018,0.95,1.3382408579442355,20
+Elastic Net-lag3-difference-60,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-lag3-difference-60,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-lag3-difference-60,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-lag3-difference-60,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-lag3-level-10,empirical,2015,0.9,3.6290718721582778,20
+Elastic Net-lag3-level-10,empirical,2016,0.85,3.6290718721582778,20
+Elastic Net-lag3-level-10,empirical,2017,0.95,3.7629677095310257,20
+Elastic Net-lag3-level-10,empirical,2018,0.95,3.6290718721582778,20
+Elastic Net-lag3-level-10,pooled_conformal,2015,0.95,4.701846290410817,20
+Elastic Net-lag3-level-10,pooled_conformal,2016,0.85,3.7629677095310257,20
+Elastic Net-lag3-level-10,pooled_conformal,2017,0.95,3.842554213048011,20
+Elastic Net-lag3-level-10,pooled_conformal,2018,0.95,3.7629677095310257,20
+Elastic Net-lag3-level-10,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-lag3-level-10,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-lag3-level-10,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-lag3-level-10,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-lag3-level-30,empirical,2015,0.9,3.8302282885897654,20
+Elastic Net-lag3-level-30,empirical,2016,0.85,3.8302282885897654,20
+Elastic Net-lag3-level-30,empirical,2017,0.95,3.843646139408378,20
+Elastic Net-lag3-level-30,empirical,2018,0.95,3.8302282885897654,20
+Elastic Net-lag3-level-30,pooled_conformal,2015,0.9,3.843646139408378,20
+Elastic Net-lag3-level-30,pooled_conformal,2016,0.85,3.843646139408378,20
+Elastic Net-lag3-level-30,pooled_conformal,2017,0.95,3.857458130957788,20
+Elastic Net-lag3-level-30,pooled_conformal,2018,0.95,3.843646139408378,20
+Elastic Net-lag3-level-30,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-lag3-level-30,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-lag3-level-30,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-lag3-level-30,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-lag3-level-60,empirical,2015,0.9,3.3970908556144224,20
+Elastic Net-lag3-level-60,empirical,2016,0.85,3.3970908556144224,20
+Elastic Net-lag3-level-60,empirical,2017,0.95,3.8583538115953955,20
+Elastic Net-lag3-level-60,empirical,2018,0.95,3.3970908556144224,20
+Elastic Net-lag3-level-60,pooled_conformal,2015,0.95,4.267420811446861,20
+Elastic Net-lag3-level-60,pooled_conformal,2016,0.9,4.182678136482979,20
+Elastic Net-lag3-level-60,pooled_conformal,2017,0.95,4.18267813648298,20
+Elastic Net-lag3-level-60,pooled_conformal,2018,0.95,3.8583538115953964,20
+Elastic Net-lag3-level-60,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-lag3-level-60,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-lag3-level-60,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-lag3-level-60,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-lag5-difference-10,empirical,2015,0.95,1.1862500000000011,20
+Elastic Net-lag5-difference-10,empirical,2016,0.8,1.083651659719095,20
+Elastic Net-lag5-difference-10,empirical,2017,0.8,1.1862500000000011,20
+Elastic Net-lag5-difference-10,empirical,2018,0.85,1.1866666666666676,20
+Elastic Net-lag5-difference-10,pooled_conformal,2015,0.95,1.1866666666666674,20
+Elastic Net-lag5-difference-10,pooled_conformal,2016,0.85,1.1862500000000011,20
+Elastic Net-lag5-difference-10,pooled_conformal,2017,0.8,1.1866666666666674,20
+Elastic Net-lag5-difference-10,pooled_conformal,2018,0.9,1.3270469443092028,20
+Elastic Net-lag5-difference-10,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-lag5-difference-10,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-lag5-difference-10,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-lag5-difference-10,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-lag5-difference-30,empirical,2015,0.95,1.1862500000000011,20
+Elastic Net-lag5-difference-30,empirical,2016,0.85,1.1067598419574627,20
+Elastic Net-lag5-difference-30,empirical,2017,0.8,1.1862500000000011,20
+Elastic Net-lag5-difference-30,empirical,2018,0.85,1.1866666666666672,20
+Elastic Net-lag5-difference-30,pooled_conformal,2015,0.95,1.1866666666666674,20
+Elastic Net-lag5-difference-30,pooled_conformal,2016,0.85,1.186250000000001,20
+Elastic Net-lag5-difference-30,pooled_conformal,2017,0.8,1.1866666666666674,20
+Elastic Net-lag5-difference-30,pooled_conformal,2018,0.9,1.3208948991446332,20
+Elastic Net-lag5-difference-30,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-lag5-difference-30,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-lag5-difference-30,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-lag5-difference-30,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-lag5-difference-60,empirical,2015,0.95,1.1862500000000011,20
+Elastic Net-lag5-difference-60,empirical,2016,0.85,1.1067598419574627,20
+Elastic Net-lag5-difference-60,empirical,2017,0.8,1.1862500000000011,20
+Elastic Net-lag5-difference-60,empirical,2018,0.85,1.1866666666666674,20
+Elastic Net-lag5-difference-60,pooled_conformal,2015,0.95,1.1866666666666674,20
+Elastic Net-lag5-difference-60,pooled_conformal,2016,0.85,1.1862500000000011,20
+Elastic Net-lag5-difference-60,pooled_conformal,2017,0.8,1.1866666666666674,20
+Elastic Net-lag5-difference-60,pooled_conformal,2018,0.9,1.3200600944585403,20
+Elastic Net-lag5-difference-60,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-lag5-difference-60,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-lag5-difference-60,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-lag5-difference-60,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-lag5-level-10,empirical,2015,0.9,2.943899512104942,20
+Elastic Net-lag5-level-10,empirical,2016,0.85,2.943899512104941,20
+Elastic Net-lag5-level-10,empirical,2017,0.95,3.706129663254271,20
+Elastic Net-lag5-level-10,empirical,2018,0.95,2.943899512104942,20
+Elastic Net-lag5-level-10,pooled_conformal,2015,0.9,3.706129663254269,20
+Elastic Net-lag5-level-10,pooled_conformal,2016,0.85,3.706129663254271,20
+Elastic Net-lag5-level-10,pooled_conformal,2017,0.95,3.7357260379269492,20
+Elastic Net-lag5-level-10,pooled_conformal,2018,0.95,3.706129663254271,20
+Elastic Net-lag5-level-10,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-lag5-level-10,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-lag5-level-10,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-lag5-level-10,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-lag5-level-30,empirical,2015,0.9,3.274637838923219,20
+Elastic Net-lag5-level-30,empirical,2016,0.85,3.274637838923219,20
+Elastic Net-lag5-level-30,empirical,2017,0.95,3.6863441691907157,20
+Elastic Net-lag5-level-30,empirical,2018,0.95,3.27463783892322,20
+Elastic Net-lag5-level-30,pooled_conformal,2015,0.95,4.364158558919062,20
+Elastic Net-lag5-level-30,pooled_conformal,2016,0.85,3.686344169190715,20
+Elastic Net-lag5-level-30,pooled_conformal,2017,0.95,3.780238103979279,20
+Elastic Net-lag5-level-30,pooled_conformal,2018,0.95,3.686344169190715,20
+Elastic Net-lag5-level-30,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-lag5-level-30,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-lag5-level-30,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-lag5-level-30,year_block_conformal,2018,1.0,100.0,20
+Elastic Net-lag5-level-60,empirical,2015,0.9,3.274637838923219,20
+Elastic Net-lag5-level-60,empirical,2016,0.85,3.274637838923219,20
+Elastic Net-lag5-level-60,empirical,2017,0.95,3.6821697879504,20
+Elastic Net-lag5-level-60,empirical,2018,0.95,3.274637838923219,20
+Elastic Net-lag5-level-60,pooled_conformal,2015,0.95,4.364158558919061,20
+Elastic Net-lag5-level-60,pooled_conformal,2016,0.85,3.6821697879504,20
+Elastic Net-lag5-level-60,pooled_conformal,2017,0.95,3.7866917484984297,20
+Elastic Net-lag5-level-60,pooled_conformal,2018,0.95,3.6821697879504,20
+Elastic Net-lag5-level-60,year_block_conformal,2015,1.0,100.0,20
+Elastic Net-lag5-level-60,year_block_conformal,2016,1.0,100.0,20
+Elastic Net-lag5-level-60,year_block_conformal,2017,1.0,100.0,20
+Elastic Net-lag5-level-60,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-engineered-difference-10,empirical,2015,0.95,1.0719688955712563,20
+HistGradientBoosting-engineered-difference-10,empirical,2016,0.8,1.0614483033921895,20
+HistGradientBoosting-engineered-difference-10,empirical,2017,0.55,1.0802275371507903,20
+HistGradientBoosting-engineered-difference-10,empirical,2018,0.95,1.2813481918300451,20
+HistGradientBoosting-engineered-difference-10,pooled_conformal,2015,0.95,1.0802275371507903,20
+HistGradientBoosting-engineered-difference-10,pooled_conformal,2016,0.8,1.0719688955712567,20
+HistGradientBoosting-engineered-difference-10,pooled_conformal,2017,0.55,1.0882027313085918,20
+HistGradientBoosting-engineered-difference-10,pooled_conformal,2018,0.95,1.297540037048549,20
+HistGradientBoosting-engineered-difference-10,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-engineered-difference-10,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-engineered-difference-10,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-engineered-difference-10,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-engineered-difference-30,empirical,2015,0.95,1.0678908905315905,20
+HistGradientBoosting-engineered-difference-30,empirical,2016,0.8,1.0607984742090084,20
+HistGradientBoosting-engineered-difference-30,empirical,2017,0.7,1.1392015257909947,20
+HistGradientBoosting-engineered-difference-30,empirical,2018,0.9,1.205556664402586,20
+HistGradientBoosting-engineered-difference-30,pooled_conformal,2015,0.95,1.1392015257909944,20
+HistGradientBoosting-engineered-difference-30,pooled_conformal,2016,0.8,1.06789089053159,20
+HistGradientBoosting-engineered-difference-30,pooled_conformal,2017,0.75,1.1922885816849522,20
+HistGradientBoosting-engineered-difference-30,pooled_conformal,2018,0.95,1.3462274651283082,20
+HistGradientBoosting-engineered-difference-30,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-engineered-difference-30,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-engineered-difference-30,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-engineered-difference-30,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-engineered-difference-60,empirical,2015,0.95,1.0827842527267817,20
+HistGradientBoosting-engineered-difference-60,empirical,2016,0.8,1.0535237352928353,20
+HistGradientBoosting-engineered-difference-60,empirical,2017,0.7,1.1464762647071682,20
+HistGradientBoosting-engineered-difference-60,empirical,2018,0.9,1.206966647815847,20
+HistGradientBoosting-engineered-difference-60,pooled_conformal,2015,0.95,1.1464762647071678,20
+HistGradientBoosting-engineered-difference-60,pooled_conformal,2016,0.8,1.082784252726782,20
+HistGradientBoosting-engineered-difference-60,pooled_conformal,2017,0.75,1.1924674774347466,20
+HistGradientBoosting-engineered-difference-60,pooled_conformal,2018,0.95,1.3405493478207406,20
+HistGradientBoosting-engineered-difference-60,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-engineered-difference-60,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-engineered-difference-60,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-engineered-difference-60,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-engineered-level-10,empirical,2015,0.85,3.0038147244883646,20
+HistGradientBoosting-engineered-level-10,empirical,2016,0.95,3.056366558541285,20
+HistGradientBoosting-engineered-level-10,empirical,2017,0.9,3.0038147244883646,20
+HistGradientBoosting-engineered-level-10,empirical,2018,0.9,3.0038147244883646,20
+HistGradientBoosting-engineered-level-10,pooled_conformal,2015,0.9,3.1926433880376095,20
+HistGradientBoosting-engineered-level-10,pooled_conformal,2016,0.95,3.1926433880376095,20
+HistGradientBoosting-engineered-level-10,pooled_conformal,2017,0.9,3.056366558541285,20
+HistGradientBoosting-engineered-level-10,pooled_conformal,2018,0.9,3.056366558541285,20
+HistGradientBoosting-engineered-level-10,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-engineered-level-10,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-engineered-level-10,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-engineered-level-10,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-engineered-level-30,empirical,2015,0.9,3.4033621425069853,20
+HistGradientBoosting-engineered-level-30,empirical,2016,0.95,3.4033621425069853,20
+HistGradientBoosting-engineered-level-30,empirical,2017,0.9,3.32842846309822,20
+HistGradientBoosting-engineered-level-30,empirical,2018,0.9,3.32842846309822,20
+HistGradientBoosting-engineered-level-30,pooled_conformal,2015,0.9,3.434247043301074,20
+HistGradientBoosting-engineered-level-30,pooled_conformal,2016,0.95,3.4342470433010748,20
+HistGradientBoosting-engineered-level-30,pooled_conformal,2017,0.9,3.4033621425069853,20
+HistGradientBoosting-engineered-level-30,pooled_conformal,2018,0.9,3.4033621425069853,20
+HistGradientBoosting-engineered-level-30,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-engineered-level-30,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-engineered-level-30,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-engineered-level-30,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-engineered-level-60,empirical,2015,0.9,3.3700287994363656,20
+HistGradientBoosting-engineered-level-60,empirical,2016,0.95,3.3700287994363647,20
+HistGradientBoosting-engineered-level-60,empirical,2017,0.9,3.228935614921795,20
+HistGradientBoosting-engineered-level-60,empirical,2018,0.9,3.228935614921795,20
+HistGradientBoosting-engineered-level-60,pooled_conformal,2015,0.9,3.3901387562947107,20
+HistGradientBoosting-engineered-level-60,pooled_conformal,2016,0.95,3.3901387562947107,20
+HistGradientBoosting-engineered-level-60,pooled_conformal,2017,0.9,3.3700287994363656,20
+HistGradientBoosting-engineered-level-60,pooled_conformal,2018,0.9,3.3700287994363656,20
+HistGradientBoosting-engineered-level-60,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-engineered-level-60,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-engineered-level-60,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-engineered-level-60,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-lag3-difference-10,empirical,2015,0.95,1.1267189288921031,20
+HistGradientBoosting-lag3-difference-10,empirical,2016,0.8,1.0416893423472042,20
+HistGradientBoosting-lag3-difference-10,empirical,2017,0.5,1.1267189288921031,20
+HistGradientBoosting-lag3-difference-10,empirical,2018,0.95,1.3084968228322822,20
+HistGradientBoosting-lag3-difference-10,pooled_conformal,2015,0.95,1.1485120546536118,20
+HistGradientBoosting-lag3-difference-10,pooled_conformal,2016,0.85,1.1267189288921031,20
+HistGradientBoosting-lag3-difference-10,pooled_conformal,2017,0.5,1.148512054653612,20
+HistGradientBoosting-lag3-difference-10,pooled_conformal,2018,0.95,1.586059021959585,20
+HistGradientBoosting-lag3-difference-10,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-lag3-difference-10,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-lag3-difference-10,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-lag3-difference-10,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-lag3-difference-30,empirical,2015,0.95,1.1322497033895758,20
+HistGradientBoosting-lag3-difference-30,empirical,2016,0.85,1.0383380774692266,20
+HistGradientBoosting-lag3-difference-30,empirical,2017,0.5,1.1322497033895758,20
+HistGradientBoosting-lag3-difference-30,empirical,2018,0.95,1.4369254305275017,20
+HistGradientBoosting-lag3-difference-30,pooled_conformal,2015,0.95,1.1977224116277547,20
+HistGradientBoosting-lag3-difference-30,pooled_conformal,2016,0.85,1.1322497033895758,20
+HistGradientBoosting-lag3-difference-30,pooled_conformal,2017,0.5,1.1977224116277538,20
+HistGradientBoosting-lag3-difference-30,pooled_conformal,2018,0.95,1.6021982939069233,20
+HistGradientBoosting-lag3-difference-30,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-lag3-difference-30,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-lag3-difference-30,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-lag3-difference-30,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-lag3-difference-60,empirical,2015,0.95,1.1322497033895758,20
+HistGradientBoosting-lag3-difference-60,empirical,2016,0.85,1.0383380774692266,20
+HistGradientBoosting-lag3-difference-60,empirical,2017,0.5,1.1322497033895758,20
+HistGradientBoosting-lag3-difference-60,empirical,2018,0.95,1.4369254305275017,20
+HistGradientBoosting-lag3-difference-60,pooled_conformal,2015,0.95,1.1977224116277543,20
+HistGradientBoosting-lag3-difference-60,pooled_conformal,2016,0.85,1.132249703389576,20
+HistGradientBoosting-lag3-difference-60,pooled_conformal,2017,0.55,1.1977224116277543,20
+HistGradientBoosting-lag3-difference-60,pooled_conformal,2018,0.95,1.4558447572628452,20
+HistGradientBoosting-lag3-difference-60,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-lag3-difference-60,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-lag3-difference-60,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-lag3-difference-60,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-lag3-level-10,empirical,2015,0.85,4.1322928658620555,20
+HistGradientBoosting-lag3-level-10,empirical,2016,0.85,6.141176044741179,20
+HistGradientBoosting-lag3-level-10,empirical,2017,0.9,6.2999406106170355,20
+HistGradientBoosting-lag3-level-10,empirical,2018,0.9,6.2999406106170355,20
+HistGradientBoosting-lag3-level-10,pooled_conformal,2015,0.85,6.141176044741179,20
+HistGradientBoosting-lag3-level-10,pooled_conformal,2016,0.85,6.2999406106170355,20
+HistGradientBoosting-lag3-level-10,pooled_conformal,2017,0.9,6.745182919557827,20
+HistGradientBoosting-lag3-level-10,pooled_conformal,2018,0.9,6.745182919557827,20
+HistGradientBoosting-lag3-level-10,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-lag3-level-10,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-lag3-level-10,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-lag3-level-10,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-lag3-level-30,empirical,2015,0.85,4.113169813911114,20
+HistGradientBoosting-lag3-level-30,empirical,2016,0.85,6.0085331182631165,20
+HistGradientBoosting-lag3-level-30,empirical,2017,0.9,6.798837557534554,20
+HistGradientBoosting-lag3-level-30,empirical,2018,0.9,6.798837557534554,20
+HistGradientBoosting-lag3-level-30,pooled_conformal,2015,0.85,6.0085331182631165,20
+HistGradientBoosting-lag3-level-30,pooled_conformal,2016,0.85,6.798837557534554,20
+HistGradientBoosting-lag3-level-30,pooled_conformal,2017,0.9,7.4443680882215375,20
+HistGradientBoosting-lag3-level-30,pooled_conformal,2018,0.9,7.4443680882215375,20
+HistGradientBoosting-lag3-level-30,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-lag3-level-30,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-lag3-level-30,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-lag3-level-30,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-lag3-level-60,empirical,2015,0.85,4.308735805261641,20
+HistGradientBoosting-lag3-level-60,empirical,2016,0.85,6.0085331182631165,20
+HistGradientBoosting-lag3-level-60,empirical,2017,0.9,6.554720086732168,20
+HistGradientBoosting-lag3-level-60,empirical,2018,0.9,6.554720086732168,20
+HistGradientBoosting-lag3-level-60,pooled_conformal,2015,0.85,6.0085331182631165,20
+HistGradientBoosting-lag3-level-60,pooled_conformal,2016,0.85,6.554720086732168,20
+HistGradientBoosting-lag3-level-60,pooled_conformal,2017,0.9,7.288015108991267,20
+HistGradientBoosting-lag3-level-60,pooled_conformal,2018,0.9,7.288015108991267,20
+HistGradientBoosting-lag3-level-60,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-lag3-level-60,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-lag3-level-60,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-lag3-level-60,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-lag5-difference-10,empirical,2015,0.95,1.0740483311646831,20
+HistGradientBoosting-lag5-difference-10,empirical,2016,0.8,1.032928018820193,20
+HistGradientBoosting-lag5-difference-10,empirical,2017,0.6,1.0841220876608268,20
+HistGradientBoosting-lag5-difference-10,empirical,2018,0.95,1.324072596000573,20
+HistGradientBoosting-lag5-difference-10,pooled_conformal,2015,0.95,1.084122087660827,20
+HistGradientBoosting-lag5-difference-10,pooled_conformal,2016,0.8,1.0740483311646831,20
+HistGradientBoosting-lag5-difference-10,pooled_conformal,2017,0.6,1.1200561155935773,20
+HistGradientBoosting-lag5-difference-10,pooled_conformal,2018,0.95,1.36337746393707,20
+HistGradientBoosting-lag5-difference-10,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-lag5-difference-10,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-lag5-difference-10,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-lag5-difference-10,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-lag5-difference-30,empirical,2015,0.95,1.148101055533175,20
+HistGradientBoosting-lag5-difference-30,empirical,2016,0.8,1.079392017014257,20
+HistGradientBoosting-lag5-difference-30,empirical,2017,0.6,1.1508348313661259,20
+HistGradientBoosting-lag5-difference-30,empirical,2018,0.95,1.330225097199257,20
+HistGradientBoosting-lag5-difference-30,pooled_conformal,2015,0.95,1.1572977091113503,20
+HistGradientBoosting-lag5-difference-30,pooled_conformal,2016,0.8,1.148101055533175,20
+HistGradientBoosting-lag5-difference-30,pooled_conformal,2017,0.65,1.1572977091113508,20
+HistGradientBoosting-lag5-difference-30,pooled_conformal,2018,0.95,1.3622879270743091,20
+HistGradientBoosting-lag5-difference-30,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-lag5-difference-30,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-lag5-difference-30,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-lag5-difference-30,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-lag5-difference-60,empirical,2015,0.95,1.148101055533175,20
+HistGradientBoosting-lag5-difference-60,empirical,2016,0.8,1.079392017014257,20
+HistGradientBoosting-lag5-difference-60,empirical,2017,0.6,1.148101055533175,20
+HistGradientBoosting-lag5-difference-60,empirical,2018,0.95,1.3364302277732523,20
+HistGradientBoosting-lag5-difference-60,pooled_conformal,2015,0.95,1.1572977091113512,20
+HistGradientBoosting-lag5-difference-60,pooled_conformal,2016,0.85,1.148101055533175,20
+HistGradientBoosting-lag5-difference-60,pooled_conformal,2017,0.6,1.1572977091113499,20
+HistGradientBoosting-lag5-difference-60,pooled_conformal,2018,0.95,1.3596143514821009,20
+HistGradientBoosting-lag5-difference-60,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-lag5-difference-60,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-lag5-difference-60,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-lag5-difference-60,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-lag5-level-10,empirical,2015,0.85,2.5766996288959945,20
+HistGradientBoosting-lag5-level-10,empirical,2016,0.85,5.780339558305961,20
+HistGradientBoosting-lag5-level-10,empirical,2017,0.9,5.820357005389589,20
+HistGradientBoosting-lag5-level-10,empirical,2018,0.9,5.820357005389589,20
+HistGradientBoosting-lag5-level-10,pooled_conformal,2015,0.85,5.780339558305961,20
+HistGradientBoosting-lag5-level-10,pooled_conformal,2016,0.9,6.812263255740575,20
+HistGradientBoosting-lag5-level-10,pooled_conformal,2017,0.9,6.812263255740575,20
+HistGradientBoosting-lag5-level-10,pooled_conformal,2018,0.9,6.812263255740575,20
+HistGradientBoosting-lag5-level-10,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-lag5-level-10,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-lag5-level-10,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-lag5-level-10,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-lag5-level-30,empirical,2015,0.85,2.7168696356579147,20
+HistGradientBoosting-lag5-level-30,empirical,2016,0.9,5.792068631142385,20
+HistGradientBoosting-lag5-level-30,empirical,2017,0.9,5.792068631142385,20
+HistGradientBoosting-lag5-level-30,empirical,2018,0.9,5.792068631142385,20
+HistGradientBoosting-lag5-level-30,pooled_conformal,2015,0.85,5.792068631142385,20
+HistGradientBoosting-lag5-level-30,pooled_conformal,2016,0.9,6.304380872785373,20
+HistGradientBoosting-lag5-level-30,pooled_conformal,2017,0.9,6.304380872785373,20
+HistGradientBoosting-lag5-level-30,pooled_conformal,2018,0.9,6.304380872785373,20
+HistGradientBoosting-lag5-level-30,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-lag5-level-30,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-lag5-level-30,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-lag5-level-30,year_block_conformal,2018,1.0,100.0,20
+HistGradientBoosting-lag5-level-60,empirical,2015,0.85,2.830214759267122,20
+HistGradientBoosting-lag5-level-60,empirical,2016,0.9,5.821463946237493,20
+HistGradientBoosting-lag5-level-60,empirical,2017,0.9,5.821463946237493,20
+HistGradientBoosting-lag5-level-60,empirical,2018,0.9,5.821463946237493,20
+HistGradientBoosting-lag5-level-60,pooled_conformal,2015,0.85,5.821463946237493,20
+HistGradientBoosting-lag5-level-60,pooled_conformal,2016,0.9,6.375813203355548,20
+HistGradientBoosting-lag5-level-60,pooled_conformal,2017,0.9,6.375813203355548,20
+HistGradientBoosting-lag5-level-60,pooled_conformal,2018,0.95,6.375813203355548,20
+HistGradientBoosting-lag5-level-60,year_block_conformal,2015,1.0,100.0,20
+HistGradientBoosting-lag5-level-60,year_block_conformal,2016,1.0,100.0,20
+HistGradientBoosting-lag5-level-60,year_block_conformal,2017,1.0,100.0,20
+HistGradientBoosting-lag5-level-60,year_block_conformal,2018,1.0,100.0,20
+Media móvil-lag3-level-0,empirical,2015,0.9,1.7333333333333343,20
+Media móvil-lag3-level-0,empirical,2016,0.9,1.7333333333333343,20
+Media móvil-lag3-level-0,empirical,2017,0.95,1.7333333333333343,20
+Media móvil-lag3-level-0,empirical,2018,0.95,1.6666666666666643,20
+Media móvil-lag3-level-0,pooled_conformal,2015,1.0,2.6666666666666647,20
+Media móvil-lag3-level-0,pooled_conformal,2016,0.9,1.8666666666666671,20
+Media móvil-lag3-level-0,pooled_conformal,2017,0.95,1.8666666666666671,20
+Media móvil-lag3-level-0,pooled_conformal,2018,0.95,1.7333333333333343,20
+Media móvil-lag3-level-0,year_block_conformal,2015,1.0,100.0,20
+Media móvil-lag3-level-0,year_block_conformal,2016,1.0,100.0,20
+Media móvil-lag3-level-0,year_block_conformal,2017,1.0,100.0,20
+Media móvil-lag3-level-0,year_block_conformal,2018,1.0,100.0,20
+Persistencia-lag3-level-0,empirical,2015,0.95,1.0,20
+Persistencia-lag3-level-0,empirical,2016,0.8,1.0,20
+Persistencia-lag3-level-0,empirical,2017,0.7,1.0,20
+Persistencia-lag3-level-0,empirical,2018,0.85,1.1999999999999997,20
+Persistencia-lag3-level-0,pooled_conformal,2015,0.95,1.0,20
+Persistencia-lag3-level-0,pooled_conformal,2016,0.8,1.0,20
+Persistencia-lag3-level-0,pooled_conformal,2017,0.85,1.1999999999999993,20
+Persistencia-lag3-level-0,pooled_conformal,2018,0.9,1.2000000000000028,20
+Persistencia-lag3-level-0,year_block_conformal,2015,1.0,100.0,20
+Persistencia-lag3-level-0,year_block_conformal,2016,1.0,100.0,20
+Persistencia-lag3-level-0,year_block_conformal,2017,1.0,100.0,20
+Persistencia-lag3-level-0,year_block_conformal,2018,1.0,100.0,20
+Random Forest-lag3-difference-10,empirical,2015,0.9,0.9735603205105463,20
+Random Forest-lag3-difference-10,empirical,2016,0.85,0.9735603205105463,20
+Random Forest-lag3-difference-10,empirical,2017,0.5,1.106134225103574,20
+Random Forest-lag3-difference-10,empirical,2018,0.95,1.3264529131576523,20
+Random Forest-lag3-difference-10,pooled_conformal,2015,0.95,1.214429221199715,20
+Random Forest-lag3-difference-10,pooled_conformal,2016,0.85,1.1061342251035742,20
+Random Forest-lag3-difference-10,pooled_conformal,2017,0.6,1.2144292211997156,20
+Random Forest-lag3-difference-10,pooled_conformal,2018,1.0,1.5175216442015085,20
+Random Forest-lag3-difference-10,year_block_conformal,2015,1.0,100.0,20
+Random Forest-lag3-difference-10,year_block_conformal,2016,1.0,100.0,20
+Random Forest-lag3-difference-10,year_block_conformal,2017,1.0,100.0,20
+Random Forest-lag3-difference-10,year_block_conformal,2018,1.0,100.0,20
+Random Forest-lag3-level-10,empirical,2015,0.9,1.8946657184241076,20
+Random Forest-lag3-level-10,empirical,2016,0.95,1.8946657184241076,20
+Random Forest-lag3-level-10,empirical,2017,0.95,1.4664221468127674,20
+Random Forest-lag3-level-10,empirical,2018,1.0,1.4644676855565781,20
+Random Forest-lag3-level-10,pooled_conformal,2015,0.9,1.9544160923313254,20
+Random Forest-lag3-level-10,pooled_conformal,2016,0.95,1.954416092331325,20
+Random Forest-lag3-level-10,pooled_conformal,2017,0.95,1.8946657184241076,20
+Random Forest-lag3-level-10,pooled_conformal,2018,1.0,1.4664221468127683,20
+Random Forest-lag3-level-10,year_block_conformal,2015,1.0,100.0,20
+Random Forest-lag3-level-10,year_block_conformal,2016,1.0,100.0,20
+Random Forest-lag3-level-10,year_block_conformal,2017,1.0,100.0,20
+Random Forest-lag3-level-10,year_block_conformal,2018,1.0,100.0,20
+Ridge-engineered-difference-10,empirical,2015,0.95,1.0611262297852515,20
+Ridge-engineered-difference-10,empirical,2016,0.8,1.0251096246311986,20
+Ridge-engineered-difference-10,empirical,2017,0.7,1.0649240306028105,20
+Ridge-engineered-difference-10,empirical,2018,0.85,1.2060121986790477,20
+Ridge-engineered-difference-10,pooled_conformal,2015,0.95,1.0649240306028107,20
+Ridge-engineered-difference-10,pooled_conformal,2016,0.8,1.0611262297852524,20
+Ridge-engineered-difference-10,pooled_conformal,2017,0.7,1.158716125541872,20
+Ridge-engineered-difference-10,pooled_conformal,2018,0.85,1.2240342439050522,20
+Ridge-engineered-difference-10,year_block_conformal,2015,1.0,100.0,20
+Ridge-engineered-difference-10,year_block_conformal,2016,1.0,100.0,20
+Ridge-engineered-difference-10,year_block_conformal,2017,1.0,100.0,20
+Ridge-engineered-difference-10,year_block_conformal,2018,1.0,100.0,20
+Ridge-engineered-difference-30,empirical,2015,0.95,1.0611202175028684,20
+Ridge-engineered-difference-30,empirical,2016,0.8,1.0251072578105747,20
+Ridge-engineered-difference-30,empirical,2017,0.7,1.0649272035792947,20
+Ridge-engineered-difference-30,empirical,2018,0.85,1.206023191542545,20
+Ridge-engineered-difference-30,pooled_conformal,2015,0.95,1.0649272035792952,20
+Ridge-engineered-difference-30,pooled_conformal,2016,0.8,1.0611202175028684,20
+Ridge-engineered-difference-30,pooled_conformal,2017,0.7,1.1587188836933038,20
+Ridge-engineered-difference-30,pooled_conformal,2018,0.85,1.2283964714550737,20
+Ridge-engineered-difference-30,year_block_conformal,2015,1.0,100.0,20
+Ridge-engineered-difference-30,year_block_conformal,2016,1.0,100.0,20
+Ridge-engineered-difference-30,year_block_conformal,2017,1.0,100.0,20
+Ridge-engineered-difference-30,year_block_conformal,2018,1.0,100.0,20
+Ridge-engineered-difference-60,empirical,2015,0.95,1.061119977024355,20
+Ridge-engineered-difference-60,empirical,2016,0.8,1.0251071631908029,20
+Ridge-engineered-difference-60,empirical,2017,0.7,1.0649273304887497,20
+Ridge-engineered-difference-60,empirical,2018,0.85,1.2060236311358032,20
+Ridge-engineered-difference-60,pooled_conformal,2015,0.95,1.0649273304887505,20
+Ridge-engineered-difference-60,pooled_conformal,2016,0.8,1.061119977024355,20
+Ridge-engineered-difference-60,pooled_conformal,2017,0.7,1.1587189940030025,20
+Ridge-engineered-difference-60,pooled_conformal,2018,0.85,1.2283964714550741,20
+Ridge-engineered-difference-60,year_block_conformal,2015,1.0,100.0,20
+Ridge-engineered-difference-60,year_block_conformal,2016,1.0,100.0,20
+Ridge-engineered-difference-60,year_block_conformal,2017,1.0,100.0,20
+Ridge-engineered-difference-60,year_block_conformal,2018,1.0,100.0,20
+Ridge-engineered-level-10,empirical,2015,0.95,4.298939631244838,20
+Ridge-engineered-level-10,empirical,2016,0.9,4.016811789354776,20
+Ridge-engineered-level-10,empirical,2017,0.95,4.016811789354776,20
+Ridge-engineered-level-10,empirical,2018,0.95,3.813500422921038,20
+Ridge-engineered-level-10,pooled_conformal,2015,0.95,4.404991560412498,20
+Ridge-engineered-level-10,pooled_conformal,2016,0.9,4.2989396312448385,20
+Ridge-engineered-level-10,pooled_conformal,2017,0.95,4.298939631244838,20
+Ridge-engineered-level-10,pooled_conformal,2018,0.95,4.016811789354776,20
+Ridge-engineered-level-10,year_block_conformal,2015,1.0,100.0,20
+Ridge-engineered-level-10,year_block_conformal,2016,1.0,100.0,20
+Ridge-engineered-level-10,year_block_conformal,2017,1.0,100.0,20
+Ridge-engineered-level-10,year_block_conformal,2018,1.0,100.0,20
+Ridge-engineered-level-30,empirical,2015,0.95,3.942323938907072,20
+Ridge-engineered-level-30,empirical,2016,0.9,3.758082015452157,20
+Ridge-engineered-level-30,empirical,2017,0.95,3.758082015452156,20
+Ridge-engineered-level-30,empirical,2018,0.95,3.6302566501540454,20
+Ridge-engineered-level-30,pooled_conformal,2015,0.95,4.38936568889724,20
+Ridge-engineered-level-30,pooled_conformal,2016,0.9,3.942323938907073,20
+Ridge-engineered-level-30,pooled_conformal,2017,0.95,3.942323938907073,20
+Ridge-engineered-level-30,pooled_conformal,2018,0.95,3.758082015452157,20
+Ridge-engineered-level-30,year_block_conformal,2015,1.0,100.0,20
+Ridge-engineered-level-30,year_block_conformal,2016,1.0,100.0,20
+Ridge-engineered-level-30,year_block_conformal,2017,1.0,100.0,20
+Ridge-engineered-level-30,year_block_conformal,2018,1.0,100.0,20
+Ridge-engineered-level-60,empirical,2015,0.9,3.6304159955074837,20
+Ridge-engineered-level-60,empirical,2016,0.9,3.6304159955074837,20
+Ridge-engineered-level-60,empirical,2017,0.95,3.6304159955074837,20
+Ridge-engineered-level-60,empirical,2018,0.95,3.539293344865662,20
+Ridge-engineered-level-60,pooled_conformal,2015,0.95,4.389365688897239,20
+Ridge-engineered-level-60,pooled_conformal,2016,0.9,3.7577702986250436,20
+Ridge-engineered-level-60,pooled_conformal,2017,0.95,3.7577702986250445,20
+Ridge-engineered-level-60,pooled_conformal,2018,0.95,3.6304159955074846,20
+Ridge-engineered-level-60,year_block_conformal,2015,1.0,100.0,20
+Ridge-engineered-level-60,year_block_conformal,2016,1.0,100.0,20
+Ridge-engineered-level-60,year_block_conformal,2017,1.0,100.0,20
+Ridge-engineered-level-60,year_block_conformal,2018,1.0,100.0,20
+Ridge-lag3-difference-10,empirical,2015,0.9,1.1403550208260573,20
+Ridge-lag3-difference-10,empirical,2016,0.85,1.1403550208260573,20
+Ridge-lag3-difference-10,empirical,2017,0.7,1.1405799383757012,20
+Ridge-lag3-difference-10,empirical,2018,0.85,1.1774504989641912,20
+Ridge-lag3-difference-10,pooled_conformal,2015,0.95,1.1479783227328606,20
+Ridge-lag3-difference-10,pooled_conformal,2016,0.85,1.1405799383757018,20
+Ridge-lag3-difference-10,pooled_conformal,2017,0.7,1.1479783227328613,20
+Ridge-lag3-difference-10,pooled_conformal,2018,0.85,1.2156668100974346,20
+Ridge-lag3-difference-10,year_block_conformal,2015,1.0,100.0,20
+Ridge-lag3-difference-10,year_block_conformal,2016,1.0,100.0,20
+Ridge-lag3-difference-10,year_block_conformal,2017,1.0,100.0,20
+Ridge-lag3-difference-10,year_block_conformal,2018,1.0,100.0,20
+Ridge-lag3-difference-30,empirical,2015,0.95,1.1403550208260564,20
+Ridge-lag3-difference-30,empirical,2016,0.85,1.140097810532069,20
+Ridge-lag3-difference-30,empirical,2017,0.7,1.1403550208260569,20
+Ridge-lag3-difference-30,empirical,2018,0.85,1.192601890092679,20
+Ridge-lag3-difference-30,pooled_conformal,2015,0.95,1.1479783227328615,20
+Ridge-lag3-difference-30,pooled_conformal,2016,0.85,1.1403550208260564,20
+Ridge-lag3-difference-30,pooled_conformal,2017,0.7,1.1479783227328606,20
+Ridge-lag3-difference-30,pooled_conformal,2018,0.85,1.2156668100974355,20
+Ridge-lag3-difference-30,year_block_conformal,2015,1.0,100.0,20
+Ridge-lag3-difference-30,year_block_conformal,2016,1.0,100.0,20
+Ridge-lag3-difference-30,year_block_conformal,2017,1.0,100.0,20
+Ridge-lag3-difference-30,year_block_conformal,2018,1.0,100.0,20
+Ridge-lag3-difference-60,empirical,2015,0.95,1.1443684499784221,20
+Ridge-lag3-difference-60,empirical,2016,0.85,1.140097810532069,20
+Ridge-lag3-difference-60,empirical,2017,0.7,1.1443684499784228,20
+Ridge-lag3-difference-60,empirical,2018,0.85,1.193025716079099,20
+Ridge-lag3-difference-60,pooled_conformal,2015,0.95,1.147796697268777,20
+Ridge-lag3-difference-60,pooled_conformal,2016,0.85,1.144368449978423,20
+Ridge-lag3-difference-60,pooled_conformal,2017,0.7,1.147796697268777,20
+Ridge-lag3-difference-60,pooled_conformal,2018,0.85,1.215265219406653,20
+Ridge-lag3-difference-60,year_block_conformal,2015,1.0,100.0,20
+Ridge-lag3-difference-60,year_block_conformal,2016,1.0,100.0,20
+Ridge-lag3-difference-60,year_block_conformal,2017,1.0,100.0,20
+Ridge-lag3-difference-60,year_block_conformal,2018,1.0,100.0,20
+Ridge-lag3-level-10,empirical,2015,0.95,4.037791483972072,20
+Ridge-lag3-level-10,empirical,2016,0.85,3.748753332338442,20
+Ridge-lag3-level-10,empirical,2017,0.95,3.8368384472347117,20
+Ridge-lag3-level-10,empirical,2018,0.95,3.748753332338442,20
+Ridge-lag3-level-10,pooled_conformal,2015,0.95,5.1610885432119815,20
+Ridge-lag3-level-10,pooled_conformal,2016,0.9,4.037791483972072,20
+Ridge-lag3-level-10,pooled_conformal,2017,0.95,4.037791483972072,20
+Ridge-lag3-level-10,pooled_conformal,2018,0.95,3.8368384472347117,20
+Ridge-lag3-level-10,year_block_conformal,2015,1.0,100.0,20
+Ridge-lag3-level-10,year_block_conformal,2016,1.0,100.0,20
+Ridge-lag3-level-10,year_block_conformal,2017,1.0,100.0,20
+Ridge-lag3-level-10,year_block_conformal,2018,1.0,100.0,20
+Ridge-lag3-level-30,empirical,2015,0.9,3.3717083694560337,20
+Ridge-lag3-level-30,empirical,2016,0.85,3.371708369456033,20
+Ridge-lag3-level-30,empirical,2017,0.95,3.7487735873739823,20
+Ridge-lag3-level-30,empirical,2018,0.95,3.3717083694560337,20
+Ridge-lag3-level-30,pooled_conformal,2015,0.95,4.409025899013493,20
+Ridge-lag3-level-30,pooled_conformal,2016,0.85,3.7487735873739823,20
+Ridge-lag3-level-30,pooled_conformal,2017,0.95,3.836801848250121,20
+Ridge-lag3-level-30,pooled_conformal,2018,0.95,3.7487735873739823,20
+Ridge-lag3-level-30,year_block_conformal,2015,1.0,100.0,20
+Ridge-lag3-level-30,year_block_conformal,2016,1.0,100.0,20
+Ridge-lag3-level-30,year_block_conformal,2017,1.0,100.0,20
+Ridge-lag3-level-30,year_block_conformal,2018,1.0,100.0,20
+Ridge-lag3-level-60,empirical,2015,0.9,3.3717083694560337,20
+Ridge-lag3-level-60,empirical,2016,0.85,3.371708369456033,20
+Ridge-lag3-level-60,empirical,2017,0.95,3.7487743974146213,20
+Ridge-lag3-level-60,empirical,2018,0.95,3.3717083694560337,20
+Ridge-lag3-level-60,pooled_conformal,2015,0.95,4.409025899013493,20
+Ridge-lag3-level-60,pooled_conformal,2016,0.85,3.7487743974146213,20
+Ridge-lag3-level-60,pooled_conformal,2017,0.95,3.8368003847792425,20
+Ridge-lag3-level-60,pooled_conformal,2018,0.95,3.7487743974146213,20
+Ridge-lag3-level-60,year_block_conformal,2015,1.0,100.0,20
+Ridge-lag3-level-60,year_block_conformal,2016,1.0,100.0,20
+Ridge-lag3-level-60,year_block_conformal,2017,1.0,100.0,20
+Ridge-lag3-level-60,year_block_conformal,2018,1.0,100.0,20
+Ridge-lag5-difference-10,empirical,2015,0.9,1.08479652621428,20
+Ridge-lag5-difference-10,empirical,2016,0.8,1.0847965262142796,20
+Ridge-lag5-difference-10,empirical,2017,0.75,1.0989549250493837,20
+Ridge-lag5-difference-10,empirical,2018,0.85,1.1383612952214084,20
+Ridge-lag5-difference-10,pooled_conformal,2015,0.9,1.0989549250493837,20
+Ridge-lag5-difference-10,pooled_conformal,2016,0.85,1.0989549250493837,20
+Ridge-lag5-difference-10,pooled_conformal,2017,0.75,1.1145663346994257,20
+Ridge-lag5-difference-10,pooled_conformal,2018,0.85,1.1521728811955114,20
+Ridge-lag5-difference-10,year_block_conformal,2015,1.0,100.0,20
+Ridge-lag5-difference-10,year_block_conformal,2016,1.0,100.0,20
+Ridge-lag5-difference-10,year_block_conformal,2017,1.0,100.0,20
+Ridge-lag5-difference-10,year_block_conformal,2018,1.0,100.0,20
+Ridge-lag5-difference-30,empirical,2015,0.9,1.0913980609251126,20
+Ridge-lag5-difference-30,empirical,2016,0.8,1.0913980609251115,20
+Ridge-lag5-difference-30,empirical,2017,0.75,1.1028031267380316,20
+Ridge-lag5-difference-30,empirical,2018,0.85,1.1471428962798673,20
+Ridge-lag5-difference-30,pooled_conformal,2015,0.95,1.1040445062536832,20
+Ridge-lag5-difference-30,pooled_conformal,2016,0.85,1.1028031267380318,20
+Ridge-lag5-difference-30,pooled_conformal,2017,0.75,1.104044506253682,20
+Ridge-lag5-difference-30,pooled_conformal,2018,0.85,1.1511461425239984,20
+Ridge-lag5-difference-30,year_block_conformal,2015,1.0,100.0,20
+Ridge-lag5-difference-30,year_block_conformal,2016,1.0,100.0,20
+Ridge-lag5-difference-30,year_block_conformal,2017,1.0,100.0,20
+Ridge-lag5-difference-30,year_block_conformal,2018,1.0,100.0,20
+Ridge-lag5-difference-60,empirical,2015,0.9,1.0958211259533175,20
+Ridge-lag5-difference-60,empirical,2016,0.85,1.095821125953318,20
+Ridge-lag5-difference-60,empirical,2017,0.75,1.1018908304323816,20
+Ridge-lag5-difference-60,empirical,2018,0.85,1.1450407877510569,20
+Ridge-lag5-difference-60,pooled_conformal,2015,0.95,1.1028777994592578,20
+Ridge-lag5-difference-60,pooled_conformal,2016,0.85,1.1018908304323816,20
+Ridge-lag5-difference-60,pooled_conformal,2017,0.75,1.1028777994592576,20
+Ridge-lag5-difference-60,pooled_conformal,2018,0.85,1.1514105324556358,20
+Ridge-lag5-difference-60,year_block_conformal,2015,1.0,100.0,20
+Ridge-lag5-difference-60,year_block_conformal,2016,1.0,100.0,20
+Ridge-lag5-difference-60,year_block_conformal,2017,1.0,100.0,20
+Ridge-lag5-difference-60,year_block_conformal,2018,1.0,100.0,20
+Ridge-lag5-level-10,empirical,2015,0.9,3.5773928772455363,20
+Ridge-lag5-level-10,empirical,2016,0.85,3.5773928772455363,20
+Ridge-lag5-level-10,empirical,2017,0.95,3.6933040500348717,20
+Ridge-lag5-level-10,empirical,2018,0.95,3.5773928772455363,20
+Ridge-lag5-level-10,pooled_conformal,2015,0.95,3.966252325326355,20
+Ridge-lag5-level-10,pooled_conformal,2016,0.85,3.6933040500348717,20
+Ridge-lag5-level-10,pooled_conformal,2017,0.95,3.7528033074127194,20
+Ridge-lag5-level-10,pooled_conformal,2018,0.95,3.6933040500348717,20
+Ridge-lag5-level-10,year_block_conformal,2015,1.0,100.0,20
+Ridge-lag5-level-10,year_block_conformal,2016,1.0,100.0,20
+Ridge-lag5-level-10,year_block_conformal,2017,1.0,100.0,20
+Ridge-lag5-level-10,year_block_conformal,2018,1.0,100.0,20
+Ridge-lag5-level-30,empirical,2015,0.9,3.298325261315547,20
+Ridge-lag5-level-30,empirical,2016,0.85,3.298325261315547,20
+Ridge-lag5-level-30,empirical,2017,0.95,3.6933372566898868,20
+Ridge-lag5-level-30,empirical,2018,0.95,3.298325261315548,20
+Ridge-lag5-level-30,pooled_conformal,2015,0.95,3.980820881553984,20
+Ridge-lag5-level-30,pooled_conformal,2016,0.85,3.6933372566898868,20
+Ridge-lag5-level-30,pooled_conformal,2017,0.95,3.752763321840564,20
+Ridge-lag5-level-30,pooled_conformal,2018,0.95,3.6933372566898868,20
+Ridge-lag5-level-30,year_block_conformal,2015,1.0,100.0,20
+Ridge-lag5-level-30,year_block_conformal,2016,1.0,100.0,20
+Ridge-lag5-level-30,year_block_conformal,2017,1.0,100.0,20
+Ridge-lag5-level-30,year_block_conformal,2018,1.0,100.0,20
+Ridge-lag5-level-60,empirical,2015,0.9,3.297172471418226,20
+Ridge-lag5-level-60,empirical,2016,0.85,3.2971724714182242,20
+Ridge-lag5-level-60,empirical,2017,0.95,3.6933385847381217,20
+Ridge-lag5-level-60,empirical,2018,0.95,3.297172471418225,20
+Ridge-lag5-level-60,pooled_conformal,2015,0.95,3.9833059971777613,20
+Ridge-lag5-level-60,pooled_conformal,2016,0.85,3.6933385847381217,20
+Ridge-lag5-level-60,pooled_conformal,2017,0.95,3.7527617229521546,20
+Ridge-lag5-level-60,pooled_conformal,2018,0.95,3.6933385847381226,20
+Ridge-lag5-level-60,year_block_conformal,2015,1.0,100.0,20
+Ridge-lag5-level-60,year_block_conformal,2016,1.0,100.0,20
+Ridge-lag5-level-60,year_block_conformal,2017,1.0,100.0,20
+Ridge-lag5-level-60,year_block_conformal,2018,1.0,100.0,20
+XGBoost-lag3-difference-10,empirical,2015,0.95,1.0513829477131367,20
+XGBoost-lag3-difference-10,empirical,2016,0.8,0.9482613086700444,20
+XGBoost-lag3-difference-10,empirical,2017,0.65,1.0772013857960696,20
+XGBoost-lag3-difference-10,empirical,2018,0.95,1.2527753114700317,20
+XGBoost-lag3-difference-10,pooled_conformal,2015,0.95,1.1067990481853514,20
+XGBoost-lag3-difference-10,pooled_conformal,2016,0.8,1.0513829477131367,20
+XGBoost-lag3-difference-10,pooled_conformal,2017,0.65,1.1067990481853514,20
+XGBoost-lag3-difference-10,pooled_conformal,2018,0.95,1.2555696964263916,20
+XGBoost-lag3-difference-10,year_block_conformal,2015,1.0,100.0,20
+XGBoost-lag3-difference-10,year_block_conformal,2016,1.0,100.0,20
+XGBoost-lag3-difference-10,year_block_conformal,2017,1.0,100.0,20
+XGBoost-lag3-difference-10,year_block_conformal,2018,1.0,100.0,20
+XGBoost-lag3-level-10,empirical,2015,0.9,2.1548759460449225,20
+XGBoost-lag3-level-10,empirical,2016,0.9,2.1548759460449225,20
+XGBoost-lag3-level-10,empirical,2017,0.8,2.1548759460449225,20
+XGBoost-lag3-level-10,empirical,2018,0.95,2.276325225830078,20
+XGBoost-lag3-level-10,pooled_conformal,2015,0.95,2.276325225830078,20
+XGBoost-lag3-level-10,pooled_conformal,2016,0.9,2.2622577667236334,20
+XGBoost-lag3-level-10,pooled_conformal,2017,0.8,2.2622577667236334,20
+XGBoost-lag3-level-10,pooled_conformal,2018,0.95,3.0811920166015625,20
+XGBoost-lag3-level-10,year_block_conformal,2015,1.0,100.0,20
+XGBoost-lag3-level-10,year_block_conformal,2016,1.0,100.0,20
+XGBoost-lag3-level-10,year_block_conformal,2017,1.0,100.0,20
+XGBoost-lag3-level-10,year_block_conformal,2018,1.0,100.0,20

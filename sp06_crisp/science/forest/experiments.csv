@@ -1,0 +1,2 @@
+experiment,model,features,target,budget,MAE,RMSE,MASE,delta_MAE,CI_lower,CI_upper,countries_better_pct,train_start,last_train_year,validation_start,validation_end,seconds,seed
+Random Forest-lag3-level-10,Random Forest,lag3,level,10,0.40006858701739045,0.6091143065667944,1.2155859077345166,0.08340192035072377,-0.00018823251242590226,0.20668284271510087,45.0,2005,2017,2013,2018,97.20300000000861,606

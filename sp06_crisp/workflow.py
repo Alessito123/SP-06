@@ -175,7 +175,14 @@ padding:1.5rem 2rem;border-radius:16px;margin-bottom:1rem">
     with st.expander("Auditoría RPMESP y experimentos rolling-origin"):
         st.caption("El protocolo de investigación nuevo se ejecuta por consola y conserva resultados "
                    "exploratorios independientes de la interacción de esta aplicación.")
-        for folder in ("baselines", "ablations", "trees"):
+        comparison = Path(__file__).with_name("science") / "comparison.csv"
+        if comparison.exists():
+            show_table("auditoria-comparacion",
+                       "Resultados exploratorios completos de seis orígenes de 2013–2018. "
+                       "Los intervalos por países no corrigen la selección entre múltiples configuraciones.",
+                       pd.read_csv(comparison).drop(columns=["parameters_by_origin"], errors="ignore"),
+                       hide_index=True)
+        for folder in ("baselines", "ablations", "trees", "forest_both"):
             path = Path(__file__).with_name("science") / folder / "experiments.csv"
             if path.exists():
                 st.write(folder)

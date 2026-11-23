@@ -23,7 +23,7 @@ class ResearchTest(unittest.TestCase):
   modified.loc[modified.year>=2016,"probability_pct"]=99
   self.assertEqual(original,baseline(modified,"PER",2016,"Deriva amortiguada"))
  def test_quantile(self):
-  self.assertEqual(quantile([1,2,3,4],.1,True),4)
+  self.assertEqual(quantile([1,2,3,4],.1,True),100)
  def test_units_and_duplicates(self):
   for text in ["iso3,year,probability_pct\nPER,2010,101\n",
                "iso3,year,probability_pct\nPER,2010,10\nPER,2010,11\n"]:

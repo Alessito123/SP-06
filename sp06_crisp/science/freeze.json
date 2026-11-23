@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "c9f3a279e6596cb123342cedf65fc685ca466f882e830093a34c5a2d1377c49f",
+  "executed_source_sha256": "6991de82014781a6c6f88a886e69d526b8ba0c0f78372863ab7b948cbde50b93",
+  "source_commit": "3ac0404",
+  "pre_run_snapshot": "0aab220",
+  "execution_note": "Lotes iniciados con el mismo archivo research.py antes del commit 3ac0404; validar por huella fuente."
+}

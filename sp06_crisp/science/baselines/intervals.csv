@@ -1,0 +1,1201 @@
+experiment,method,year,iso3,coverage,width,nominal,calibration_last_year,calibration_n,full_support_due_to_small_n
+ARIMA-lag3-level-0,empirical,2015,ARG,True,0.9999999999999982,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,BOL,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,BRA,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,CHL,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,COL,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,CRI,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,CUB,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,DOM,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,ECU,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,GTM,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,HND,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,HTI,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,MEX,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,NIC,False,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,PAN,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,PER,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,PRY,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,SLV,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,URY,True,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,empirical,2015,VEN,False,1.0,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,ARG,True,1.0853510818520373,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,BOL,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,BRA,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,CHL,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,COL,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,CRI,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,CUB,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,DOM,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,ECU,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,GTM,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,HND,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,HTI,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,MEX,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,NIC,False,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,PAN,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,PER,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,PRY,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,SLV,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,URY,True,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,pooled_conformal,2015,VEN,False,1.085351081852039,0.9,2014,40,False
+ARIMA-lag3-level-0,year_block_conformal,2015,ARG,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,BOL,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,BRA,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,CHL,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,COL,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,CRI,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,CUB,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,DOM,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,ECU,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,GTM,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,HND,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,HTI,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,MEX,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,NIC,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,PAN,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,PER,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,PRY,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,SLV,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,URY,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,year_block_conformal,2015,VEN,True,100.0,0.9,2014,2,True
+ARIMA-lag3-level-0,empirical,2016,ARG,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,BOL,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,BRA,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,CHL,False,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,COL,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,CRI,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,CUB,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,DOM,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,ECU,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,GTM,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,HND,False,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,HTI,False,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,MEX,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,NIC,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,PAN,False,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,PER,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,PRY,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,SLV,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,URY,True,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,empirical,2016,VEN,False,1.0,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,ARG,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,BOL,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,BRA,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,CHL,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,COL,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,CRI,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,CUB,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,DOM,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,ECU,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,GTM,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,HND,False,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,HTI,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,MEX,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,NIC,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,PAN,False,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,PER,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,PRY,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,SLV,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,URY,True,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,pooled_conformal,2016,VEN,False,1.085351081852039,0.9,2015,60,False
+ARIMA-lag3-level-0,year_block_conformal,2016,ARG,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,BOL,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,BRA,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,CHL,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,COL,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,CRI,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,CUB,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,DOM,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,ECU,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,GTM,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,HND,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,HTI,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,MEX,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,NIC,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,PAN,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,PER,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,PRY,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,SLV,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,URY,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,year_block_conformal,2016,VEN,True,100.0,0.9,2015,3,True
+ARIMA-lag3-level-0,empirical,2017,ARG,False,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,BOL,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,BRA,False,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,CHL,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,COL,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,CRI,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,CUB,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,DOM,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,ECU,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,GTM,False,1.0853510818520409,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,HND,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,HTI,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,MEX,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,NIC,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,PAN,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,PER,False,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,PRY,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,SLV,True,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,URY,False,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,empirical,2017,VEN,False,1.085351081852039,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,ARG,False,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,BOL,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,BRA,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,CHL,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,COL,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,CRI,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,CUB,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,DOM,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,ECU,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,GTM,False,1.1113871195759142,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,HND,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,HTI,True,1.1113871195759195,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,MEX,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,NIC,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,PAN,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,PER,False,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,PRY,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,SLV,True,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,URY,False,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,pooled_conformal,2017,VEN,False,1.111387119575916,0.9,2016,80,False
+ARIMA-lag3-level-0,year_block_conformal,2017,ARG,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,BOL,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,BRA,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,CHL,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,COL,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,CRI,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,CUB,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,DOM,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,ECU,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,GTM,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,HND,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,HTI,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,MEX,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,NIC,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,PAN,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,PER,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,PRY,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,SLV,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,URY,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,year_block_conformal,2017,VEN,True,100.0,0.9,2016,4,True
+ARIMA-lag3-level-0,empirical,2018,ARG,True,1.2318441655060806,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,BOL,True,1.2318441655060823,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,BRA,True,1.2318441655060788,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,CHL,True,1.2318441655060788,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,COL,True,1.2318441655060788,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,CRI,True,1.2318441655060788,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,CUB,True,1.2318441655060823,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,DOM,True,1.2318441655060752,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,ECU,True,1.2318441655060788,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,GTM,False,1.2318441655060788,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,HND,True,1.2318441655060752,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,HTI,True,1.2318441655060752,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,MEX,True,1.2318441655060788,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,NIC,True,1.2318441655060788,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,PAN,True,1.2318441655060788,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,PER,False,1.2318441655060788,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,PRY,True,1.231844165506077,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,SLV,True,1.2318441655060788,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,URY,True,1.231844165506077,0.9,2017,100,False
+ARIMA-lag3-level-0,empirical,2018,VEN,True,1.2318441655060752,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,ARG,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,BOL,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,BRA,True,1.2915608813496053,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,CHL,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,COL,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,CRI,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,CUB,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,DOM,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,ECU,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,GTM,False,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,HND,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,HTI,True,1.2915608813496071,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,MEX,True,1.2915608813496018,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,NIC,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,PAN,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,PER,False,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,PRY,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,SLV,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,URY,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,pooled_conformal,2018,VEN,True,1.2915608813496036,0.9,2017,100,False
+ARIMA-lag3-level-0,year_block_conformal,2018,ARG,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,BOL,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,BRA,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,CHL,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,COL,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,CRI,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,CUB,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,DOM,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,ECU,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,GTM,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,HND,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,HTI,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,MEX,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,NIC,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,PAN,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,PER,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,PRY,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,SLV,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,URY,True,100.0,0.9,2017,5,True
+ARIMA-lag3-level-0,year_block_conformal,2018,VEN,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,empirical,2015,ARG,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,BOL,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,BRA,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,CHL,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,COL,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,CRI,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,CUB,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,DOM,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,ECU,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,GTM,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,HND,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,HTI,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,MEX,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,NIC,False,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,PAN,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,PER,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,PRY,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,SLV,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,URY,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,empirical,2015,VEN,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,ARG,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,BOL,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,BRA,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,CHL,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,COL,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,CRI,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,CUB,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,DOM,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,ECU,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,GTM,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,HND,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,HTI,True,1.0999999999999943,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,MEX,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,NIC,False,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,PAN,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,PER,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,PRY,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,SLV,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,URY,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2015,VEN,True,1.1000000000000014,0.9,2014,40,False
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,ARG,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,BOL,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,BRA,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,CHL,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,COL,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,CRI,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,CUB,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,DOM,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,ECU,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,GTM,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,HND,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,HTI,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,MEX,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,NIC,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,PAN,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,PER,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,PRY,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,SLV,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,URY,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2015,VEN,True,100.0,0.9,2014,2,True
+Deriva amortiguada-lag3-level-0,empirical,2016,ARG,True,1.0333333333333368,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,BOL,True,1.0333333333333385,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,BRA,True,1.0333333333333332,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,CHL,True,1.033333333333335,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,COL,True,1.033333333333335,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,CRI,True,1.033333333333335,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,CUB,True,1.0333333333333385,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,DOM,True,1.0333333333333314,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,ECU,True,1.033333333333335,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,GTM,True,1.0333333333333368,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,HND,False,1.0333333333333385,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,HTI,True,1.0333333333333314,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,MEX,True,1.0333333333333368,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,NIC,False,1.033333333333335,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,PAN,False,1.033333333333335,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,PER,True,1.033333333333335,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,PRY,True,1.0333333333333385,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,SLV,True,1.033333333333335,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,URY,True,1.0333333333333314,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,empirical,2016,VEN,False,1.0333333333333385,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,ARG,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,BOL,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,BRA,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,CHL,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,COL,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,CRI,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,CUB,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,DOM,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,ECU,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,GTM,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,HND,False,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,HTI,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,MEX,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,NIC,False,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,PAN,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,PER,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,PRY,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,SLV,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,URY,True,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2016,VEN,False,1.0999999999999943,0.9,2015,60,False
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,ARG,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,BOL,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,BRA,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,CHL,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,COL,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,CRI,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,CUB,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,DOM,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,ECU,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,GTM,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,HND,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,HTI,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,MEX,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,NIC,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,PAN,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,PER,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,PRY,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,SLV,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,URY,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2016,VEN,True,100.0,0.9,2015,3,True
+Deriva amortiguada-lag3-level-0,empirical,2017,ARG,False,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,BOL,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,BRA,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,CHL,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,COL,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,CRI,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,CUB,False,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,DOM,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,ECU,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,GTM,False,1.0999999999999925,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,HND,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,HTI,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,MEX,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,NIC,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,PAN,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,PER,False,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,PRY,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,SLV,True,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,URY,False,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,empirical,2017,VEN,False,1.0999999999999943,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,ARG,False,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,BOL,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,BRA,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,CHL,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,COL,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,CRI,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,CUB,False,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,DOM,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,ECU,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,GTM,False,1.1000000000000032,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,HND,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,HTI,True,1.0999999999999979,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,MEX,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,NIC,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,PAN,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,PER,False,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,PRY,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,SLV,True,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,URY,False,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2017,VEN,False,1.1000000000000014,0.9,2016,80,False
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,ARG,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,BOL,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,BRA,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,CHL,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,COL,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,CRI,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,CUB,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,DOM,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,ECU,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,GTM,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,HND,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,HTI,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,MEX,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,NIC,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,PAN,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,PER,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,PRY,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,SLV,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,URY,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2017,VEN,True,100.0,0.9,2016,4,True
+Deriva amortiguada-lag3-level-0,empirical,2018,ARG,True,1.1666666666666696,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,BOL,True,1.1666666666666643,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,BRA,True,1.1666666666666696,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,CHL,True,1.1666666666666679,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,COL,True,1.1666666666666679,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,CRI,True,1.1666666666666679,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,CUB,True,1.1666666666666643,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,DOM,True,1.1666666666666643,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,ECU,True,1.1666666666666679,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,GTM,False,1.1666666666666679,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,HND,True,1.1666666666666714,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,HTI,True,1.1666666666666714,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,MEX,True,1.1666666666666679,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,NIC,True,1.1666666666666679,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,PAN,True,1.1666666666666679,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,PER,False,1.1666666666666679,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,PRY,True,1.1666666666666696,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,SLV,False,1.1666666666666679,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,URY,True,1.166666666666666,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,empirical,2018,VEN,True,1.1666666666666714,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,ARG,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,BOL,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,BRA,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,CHL,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,COL,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,CRI,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,CUB,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,DOM,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,ECU,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,GTM,False,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,HND,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,HTI,True,1.2333333333333236,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,MEX,True,1.233333333333329,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,NIC,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,PAN,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,PER,False,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,PRY,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,SLV,False,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,URY,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,pooled_conformal,2018,VEN,True,1.2333333333333272,0.9,2017,100,False
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,ARG,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,BOL,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,BRA,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,CHL,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,COL,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,CRI,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,CUB,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,DOM,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,ECU,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,GTM,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,HND,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,HTI,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,MEX,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,NIC,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,PAN,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,PER,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,PRY,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,SLV,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,URY,True,100.0,0.9,2017,5,True
+Deriva amortiguada-lag3-level-0,year_block_conformal,2018,VEN,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,empirical,2015,ARG,True,1.011163051431902,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,BOL,True,1.0111630514319003,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,BRA,True,1.011163051431902,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,CHL,True,1.0111630514319039,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,COL,True,1.0111630514319039,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,CRI,True,1.0111630514319039,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,CUB,True,1.011163051431902,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,DOM,True,1.0111630514319074,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,ECU,True,1.0111630514319039,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,GTM,True,1.0111630514319039,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,HND,True,1.0111630514319003,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,HTI,True,1.0111630514319074,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,MEX,True,1.0111630514319039,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,NIC,False,1.0111630514319039,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,PAN,True,1.0111630514319039,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,PER,True,1.0111630514319039,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,PRY,True,1.011163051431902,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,SLV,False,1.0111630514319039,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,URY,False,1.0111630514319074,0.9,2014,40,False
+ETS-lag3-level-0,empirical,2015,VEN,False,1.011163051431902,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,ARG,True,1.0276939572513069,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,BOL,True,1.0276939572513086,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,BRA,True,1.0276939572513069,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,CHL,True,1.027693957251305,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,COL,True,1.027693957251305,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,CRI,True,1.027693957251305,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,CUB,True,1.0276939572513069,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,DOM,True,1.0276939572513015,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,ECU,True,1.027693957251305,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,GTM,True,1.027693957251305,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,HND,True,1.0276939572513086,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,HTI,True,1.0276939572513015,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,MEX,True,1.027693957251305,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,NIC,False,1.027693957251305,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,PAN,True,1.027693957251305,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,PER,True,1.027693957251305,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,PRY,True,1.0276939572513069,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,SLV,False,1.027693957251305,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,URY,False,1.0276939572513015,0.9,2014,40,False
+ETS-lag3-level-0,pooled_conformal,2015,VEN,False,1.0276939572513069,0.9,2014,40,False
+ETS-lag3-level-0,year_block_conformal,2015,ARG,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,BOL,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,BRA,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,CHL,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,COL,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,CRI,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,CUB,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,DOM,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,ECU,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,GTM,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,HND,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,HTI,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,MEX,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,NIC,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,PAN,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,PER,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,PRY,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,SLV,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,URY,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,year_block_conformal,2015,VEN,True,100.0,0.9,2014,2,True
+ETS-lag3-level-0,empirical,2016,ARG,False,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,BOL,True,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,BRA,True,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,CHL,False,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,COL,True,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,CRI,True,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,CUB,True,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,DOM,True,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,ECU,True,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,GTM,True,1.048764464414882,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,HND,False,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,HTI,True,1.0487644644148872,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,MEX,False,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,NIC,True,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,PAN,False,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,PER,False,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,PRY,True,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,SLV,True,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,URY,False,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,empirical,2016,VEN,False,1.0487644644148801,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,ARG,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,BOL,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,BRA,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,CHL,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,COL,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,CRI,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,CUB,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,DOM,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,ECU,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,GTM,True,1.3835807653045133,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,HND,False,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,HTI,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,MEX,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,NIC,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,PAN,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,PER,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,PRY,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,SLV,True,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,URY,False,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,pooled_conformal,2016,VEN,False,1.3835807653045151,0.9,2015,60,False
+ETS-lag3-level-0,year_block_conformal,2016,ARG,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,BOL,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,BRA,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,CHL,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,COL,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,CRI,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,CUB,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,DOM,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,ECU,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,GTM,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,HND,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,HTI,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,MEX,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,NIC,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,PAN,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,PER,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,PRY,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,SLV,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,URY,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,year_block_conformal,2016,VEN,True,100.0,0.9,2015,3,True
+ETS-lag3-level-0,empirical,2017,ARG,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,BOL,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,BRA,True,1.383580765304517,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,CHL,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,COL,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,CRI,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,CUB,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,DOM,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,ECU,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,GTM,False,1.383580765304517,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,HND,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,HTI,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,MEX,True,1.383580765304517,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,NIC,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,PAN,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,PER,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,PRY,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,SLV,True,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,URY,False,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,empirical,2017,VEN,False,1.3835807653045151,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,ARG,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,BOL,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,BRA,True,1.560440411361375,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,CHL,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,COL,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,CRI,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,CUB,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,DOM,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,ECU,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,GTM,True,1.560440411361375,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,HND,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,HTI,True,1.5604404113613732,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,MEX,True,1.560440411361375,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,NIC,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,PAN,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,PER,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,PRY,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,SLV,True,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,URY,False,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,pooled_conformal,2017,VEN,False,1.5604404113613768,0.9,2016,80,False
+ETS-lag3-level-0,year_block_conformal,2017,ARG,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,BOL,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,BRA,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,CHL,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,COL,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,CRI,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,CUB,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,DOM,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,ECU,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,GTM,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,HND,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,HTI,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,MEX,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,NIC,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,PAN,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,PER,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,PRY,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,SLV,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,URY,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,year_block_conformal,2017,VEN,True,100.0,0.9,2016,4,True
+ETS-lag3-level-0,empirical,2018,ARG,True,1.4234031418698727,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,BOL,True,1.4234031418698692,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,BRA,True,1.423403141869871,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,CHL,True,1.4234031418698727,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,COL,True,1.4234031418698727,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,CRI,True,1.4234031418698727,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,CUB,True,1.423403141869871,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,DOM,True,1.4234031418698763,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,ECU,True,1.4234031418698727,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,GTM,True,1.4234031418698727,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,HND,True,1.4234031418698692,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,HTI,True,1.4234031418698692,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,MEX,True,1.423403141869871,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,NIC,True,1.4234031418698727,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,PAN,True,1.4234031418698727,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,PER,False,1.4234031418698727,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,PRY,True,1.4234031418698745,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,SLV,False,1.4234031418698727,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,URY,True,1.4234031418698745,0.9,2017,100,False
+ETS-lag3-level-0,empirical,2018,VEN,True,1.4234031418698763,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,ARG,True,1.560440411361375,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,BOL,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,BRA,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,CHL,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,COL,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,CRI,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,CUB,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,DOM,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,ECU,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,GTM,True,1.560440411361375,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,HND,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,HTI,True,1.5604404113613732,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,MEX,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,NIC,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,PAN,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,PER,False,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,PRY,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,SLV,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,URY,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,pooled_conformal,2018,VEN,True,1.5604404113613768,0.9,2017,100,False
+ETS-lag3-level-0,year_block_conformal,2018,ARG,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,BOL,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,BRA,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,CHL,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,COL,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,CRI,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,CUB,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,DOM,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,ECU,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,GTM,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,HND,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,HTI,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,MEX,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,NIC,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,PAN,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,PER,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,PRY,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,SLV,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,URY,True,100.0,0.9,2017,5,True
+ETS-lag3-level-0,year_block_conformal,2018,VEN,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,empirical,2015,ARG,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,BOL,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,BRA,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,CHL,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,COL,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,CRI,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,CUB,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,DOM,False,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,ECU,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,GTM,True,1.7333333333333325,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,HND,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,HTI,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,MEX,True,1.7333333333333325,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,NIC,False,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,PAN,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,PER,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,PRY,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,SLV,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,URY,True,1.7333333333333343,0.9,2014,40,False
+Media móvil-lag3-level-0,empirical,2015,VEN,True,1.733333333333336,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,ARG,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,BOL,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,BRA,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,CHL,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,COL,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,CRI,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,CUB,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,DOM,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,ECU,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,GTM,True,2.666666666666666,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,HND,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,HTI,True,2.666666666666668,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,MEX,True,2.666666666666666,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,NIC,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,PAN,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,PER,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,PRY,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,SLV,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,URY,True,2.6666666666666643,0.9,2014,40,False
+Media móvil-lag3-level-0,pooled_conformal,2015,VEN,True,2.6666666666666625,0.9,2014,40,False
+Media móvil-lag3-level-0,year_block_conformal,2015,ARG,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,BOL,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,BRA,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,CHL,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,COL,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,CRI,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,CUB,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,DOM,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,ECU,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,GTM,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,HND,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,HTI,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,MEX,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,NIC,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,PAN,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,PER,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,PRY,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,SLV,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,URY,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,year_block_conformal,2015,VEN,True,100.0,0.9,2014,2,True
+Media móvil-lag3-level-0,empirical,2016,ARG,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,BOL,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,BRA,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,CHL,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,COL,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,CRI,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,CUB,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,DOM,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,ECU,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,GTM,True,1.7333333333333325,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,HND,False,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,HTI,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,MEX,True,1.7333333333333325,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,NIC,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,PAN,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,PER,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,PRY,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,SLV,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,URY,True,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,empirical,2016,VEN,False,1.7333333333333343,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,ARG,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,BOL,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,BRA,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,CHL,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,COL,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,CRI,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,CUB,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,DOM,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,ECU,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,GTM,True,1.866666666666669,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,HND,False,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,HTI,True,1.86666666666666,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,MEX,True,1.866666666666669,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,NIC,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,PAN,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,PER,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,PRY,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,SLV,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,URY,True,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,pooled_conformal,2016,VEN,False,1.8666666666666671,0.9,2015,60,False
+Media móvil-lag3-level-0,year_block_conformal,2016,ARG,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,BOL,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,BRA,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,CHL,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,COL,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,CRI,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,CUB,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,DOM,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,ECU,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,GTM,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,HND,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,HTI,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,MEX,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,NIC,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,PAN,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,PER,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,PRY,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,SLV,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,URY,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,year_block_conformal,2016,VEN,True,100.0,0.9,2015,3,True
+Media móvil-lag3-level-0,empirical,2017,ARG,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,BOL,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,BRA,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,CHL,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,COL,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,CRI,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,CUB,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,DOM,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,ECU,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,GTM,True,1.733333333333336,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,HND,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,HTI,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,MEX,True,1.7333333333333325,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,NIC,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,PAN,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,PER,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,PRY,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,SLV,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,URY,False,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,empirical,2017,VEN,True,1.7333333333333343,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,ARG,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,BOL,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,BRA,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,CHL,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,COL,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,CRI,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,CUB,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,DOM,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,ECU,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,GTM,True,1.8666666666666654,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,HND,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,HTI,True,1.8666666666666636,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,MEX,True,1.866666666666669,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,NIC,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,PAN,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,PER,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,PRY,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,SLV,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,URY,False,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,pooled_conformal,2017,VEN,True,1.8666666666666671,0.9,2016,80,False
+Media móvil-lag3-level-0,year_block_conformal,2017,ARG,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,BOL,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,BRA,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,CHL,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,COL,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,CRI,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,CUB,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,DOM,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,ECU,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,GTM,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,HND,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,HTI,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,MEX,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,NIC,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,PAN,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,PER,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,PRY,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,SLV,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,URY,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,year_block_conformal,2017,VEN,True,100.0,0.9,2016,4,True
+Media móvil-lag3-level-0,empirical,2018,ARG,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,BOL,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,BRA,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,CHL,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,COL,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,CRI,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,CUB,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,DOM,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,ECU,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,GTM,True,1.6666666666666625,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,HND,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,HTI,True,1.6666666666666679,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,MEX,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,NIC,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,PAN,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,PER,False,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,PRY,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,SLV,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,URY,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,empirical,2018,VEN,True,1.6666666666666643,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,ARG,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,BOL,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,BRA,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,CHL,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,COL,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,CRI,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,CUB,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,DOM,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,ECU,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,GTM,True,1.733333333333336,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,HND,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,HTI,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,MEX,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,NIC,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,PAN,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,PER,False,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,PRY,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,SLV,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,URY,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,pooled_conformal,2018,VEN,True,1.7333333333333343,0.9,2017,100,False
+Media móvil-lag3-level-0,year_block_conformal,2018,ARG,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,BOL,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,BRA,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,CHL,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,COL,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,CRI,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,CUB,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,DOM,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,ECU,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,GTM,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,HND,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,HTI,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,MEX,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,NIC,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,PAN,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,PER,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,PRY,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,SLV,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,URY,True,100.0,0.9,2017,5,True
+Media móvil-lag3-level-0,year_block_conformal,2018,VEN,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,empirical,2015,ARG,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,BOL,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,BRA,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,CHL,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,COL,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,CRI,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,CUB,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,DOM,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,ECU,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,GTM,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,HND,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,HTI,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,MEX,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,NIC,False,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,PAN,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,PER,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,PRY,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,SLV,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,URY,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,empirical,2015,VEN,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,ARG,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,BOL,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,BRA,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,CHL,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,COL,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,CRI,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,CUB,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,DOM,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,ECU,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,GTM,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,HND,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,HTI,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,MEX,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,NIC,False,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,PAN,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,PER,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,PRY,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,SLV,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,URY,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,pooled_conformal,2015,VEN,True,1.0,0.9,2014,40,False
+Persistencia-lag3-level-0,year_block_conformal,2015,ARG,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,BOL,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,BRA,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,CHL,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,COL,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,CRI,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,CUB,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,DOM,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,ECU,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,GTM,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,HND,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,HTI,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,MEX,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,NIC,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,PAN,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,PER,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,PRY,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,SLV,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,URY,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,year_block_conformal,2015,VEN,True,100.0,0.9,2014,2,True
+Persistencia-lag3-level-0,empirical,2016,ARG,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,BOL,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,BRA,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,CHL,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,COL,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,CRI,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,CUB,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,DOM,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,ECU,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,GTM,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,HND,False,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,HTI,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,MEX,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,NIC,False,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,PAN,False,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,PER,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,PRY,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,SLV,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,URY,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,empirical,2016,VEN,False,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,ARG,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,BOL,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,BRA,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,CHL,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,COL,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,CRI,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,CUB,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,DOM,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,ECU,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,GTM,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,HND,False,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,HTI,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,MEX,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,NIC,False,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,PAN,False,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,PER,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,PRY,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,SLV,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,URY,True,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,pooled_conformal,2016,VEN,False,1.0,0.9,2015,60,False
+Persistencia-lag3-level-0,year_block_conformal,2016,ARG,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,BOL,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,BRA,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,CHL,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,COL,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,CRI,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,CUB,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,DOM,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,ECU,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,GTM,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,HND,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,HTI,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,MEX,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,NIC,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,PAN,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,PER,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,PRY,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,SLV,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,URY,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,year_block_conformal,2016,VEN,True,100.0,0.9,2015,3,True
+Persistencia-lag3-level-0,empirical,2017,ARG,False,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,BOL,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,BRA,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,CHL,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,COL,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,CRI,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,CUB,False,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,DOM,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,ECU,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,GTM,False,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,HND,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,HTI,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,MEX,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,NIC,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,PAN,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,PER,False,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,PRY,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,SLV,True,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,URY,False,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,empirical,2017,VEN,False,1.0,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,ARG,True,1.200000000000001,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,BOL,True,1.2000000000000028,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,BRA,True,1.1999999999999975,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,CHL,True,1.1999999999999993,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,COL,True,1.1999999999999993,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,CRI,True,1.1999999999999993,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,CUB,True,1.1999999999999975,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,DOM,True,1.1999999999999957,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,ECU,True,1.1999999999999993,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,GTM,False,1.1999999999999975,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,HND,True,1.2000000000000028,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,HTI,True,1.2000000000000028,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,MEX,True,1.200000000000001,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,NIC,True,1.1999999999999993,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,PAN,True,1.1999999999999993,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,PER,True,1.1999999999999993,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,PRY,True,1.1999999999999957,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,SLV,True,1.1999999999999993,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,URY,False,1.2000000000000028,0.9,2016,80,False
+Persistencia-lag3-level-0,pooled_conformal,2017,VEN,False,1.1999999999999957,0.9,2016,80,False
+Persistencia-lag3-level-0,year_block_conformal,2017,ARG,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,BOL,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,BRA,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,CHL,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,COL,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,CRI,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,CUB,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,DOM,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,ECU,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,GTM,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,HND,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,HTI,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,MEX,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,NIC,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,PAN,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,PER,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,PRY,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,SLV,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,URY,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,year_block_conformal,2017,VEN,True,100.0,0.9,2016,4,True
+Persistencia-lag3-level-0,empirical,2018,ARG,True,1.1999999999999993,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,BOL,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,BRA,True,1.1999999999999975,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,CHL,True,1.1999999999999993,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,COL,True,1.1999999999999993,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,CRI,True,1.1999999999999993,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,CUB,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,DOM,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,ECU,True,1.1999999999999993,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,GTM,False,1.1999999999999993,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,HND,True,1.1999999999999957,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,HTI,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,MEX,True,1.1999999999999975,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,NIC,True,1.1999999999999993,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,PAN,True,1.1999999999999993,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,PER,False,1.1999999999999993,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,PRY,True,1.200000000000001,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,SLV,False,1.1999999999999993,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,URY,True,1.1999999999999975,0.9,2017,100,False
+Persistencia-lag3-level-0,empirical,2018,VEN,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,ARG,True,1.200000000000001,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,BOL,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,BRA,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,CHL,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,COL,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,CRI,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,CUB,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,DOM,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,ECU,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,GTM,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,HND,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,HTI,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,MEX,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,NIC,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,PAN,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,PER,False,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,PRY,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,SLV,False,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,URY,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,pooled_conformal,2018,VEN,True,1.2000000000000028,0.9,2017,100,False
+Persistencia-lag3-level-0,year_block_conformal,2018,ARG,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,BOL,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,BRA,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,CHL,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,COL,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,CRI,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,CUB,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,DOM,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,ECU,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,GTM,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,HND,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,HTI,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,MEX,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,NIC,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,PAN,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,PER,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,PRY,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,SLV,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,URY,True,100.0,0.9,2017,5,True
+Persistencia-lag3-level-0,year_block_conformal,2018,VEN,True,100.0,0.9,2017,5,True

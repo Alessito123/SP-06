@@ -1,0 +1,30 @@
+{
+  "protocol_sha256": "c9f3a279e6596cb123342cedf65fc685ca466f882e830093a34c5a2d1377c49f",
+  "dataset_sha256": "a0556b00767935eb7f9b42a690126df9934531a0e16576a42ee3895f71fcbf6d",
+  "seed": 606,
+  "code_commit": "3ac040414787ce166a5a84009261b9fba48022fe",
+  "source_sha256": "6991de82014781a6c6f88a886e69d526b8ba0c0f78372863ab7b948cbde50b93",
+  "dirty": true,
+  "selection_exploratory": "Random Forest-lag3-level-10",
+  "best_adjustable_exploratory": "Random Forest",
+  "models": [
+    "Random Forest"
+  ],
+  "budgets": [
+    10
+  ],
+  "feature_sets": [
+    "lag3"
+  ],
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "optuna": "4.9.0",
+    "xgboost": "3.4.1",
+    "statsmodels": "0.15.0"
+  },
+  "execution_provenance": "executed_sources.zip contains pre-refactor source; interval revision recorded separately",
+  "interval_revision": "bounded-support rule; see recalibrate.py and its source hash",
+  "interval_source_sha256": "05e81cdf273119e64f9daee4a4176f594101cd34d29c82a879b6efec573a9276"
+}

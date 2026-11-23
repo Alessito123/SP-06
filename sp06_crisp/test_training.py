@@ -54,6 +54,7 @@ class TrainingProtocolTest(unittest.TestCase):
         development = self.blocks["Desarrollo"]
         model, name, params, folds, scores, trials = evaluate_nested(development, settings, lambda *_: None)
         self.assertEqual(len(scores), 10)
+        self.assertEqual(name, scores.groupby("modelo")["MAE log"].mean().idxmin())
         self.assertIn(len(trials), (5, 6))
         self.assertTrue({"MAE log", "MAE (pp)", "RMSE (pp)", "MASE"} <= set(scores.columns))
         metadata = {"model": name, "params": params, "cutoff": 2015,

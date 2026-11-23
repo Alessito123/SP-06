@@ -12,6 +12,8 @@ INTERPRETATION = (
 )
 
 READING = {
+    "auditoria-comparacion": "Compara MAE, RMSE, diferencia frente a persistencia y su intervalo. "
+                            "Revisa también el porcentaje de países con menor error.",
     "plan-geografico": "Contrasta los países y años de ajuste con los de evaluación dentro de cada fila.",
     "resumen-desarrollo": "Compara las medias y revisa la desviación para ver la variación entre folds.",
     "dispersion-desarrollo": "Lee la posición horizontal de los puntos y compárala con persistencia.",
