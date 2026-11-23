@@ -1,5 +1,11 @@
 # SP-06
 
+La auditoría final y la extensión OMS 2022–2023 están en
+[INFORME_FINAL.md](sp06_crisp/science/final_audit/INFORME_FINAL.md).
+La reproducción mínima usa Python 3.12.9 y research.requirements.txt con
+las restricciones de dependencies.lock.txt. GitHub Actions ejecuta las pruebas
+científicas de integración.
+
 La rama de auditoría RPMESP documenta su protocolo y limitaciones en
 [science/AUDITORIA.md](sp06_crisp/science/AUDITORIA.md). Los experimentos nuevos
 rolling-origin se ejecutan con research.py y conservan el periodo 2019–2021 como

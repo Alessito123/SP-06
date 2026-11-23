@@ -1,0 +1,66 @@
+experiment,predictions,max_absolute_difference,tolerance,passed
+ARIMA-lag3-level-0,120,0,1e-08,True
+Deriva amortiguada-lag3-level-0,120,0,1e-08,True
+ETS-lag3-level-0,120,0,1e-08,True
+Media móvil-lag3-level-0,120,0,1e-08,True
+Persistencia-lag3-level-0,120,0,1e-08,True
+Elastic Net-engineered-difference-10,120,0,1e-08,True
+Elastic Net-engineered-difference-30,120,0,1e-08,True
+Elastic Net-engineered-difference-60,120,0,1e-08,True
+Elastic Net-engineered-level-10,120,0,1e-08,True
+Elastic Net-engineered-level-30,120,0,1e-08,True
+Elastic Net-engineered-level-60,120,0,1e-08,True
+Elastic Net-lag3-difference-10,120,0,1e-08,True
+Elastic Net-lag3-difference-30,120,0,1e-08,True
+Elastic Net-lag3-difference-60,120,0,1e-08,True
+Elastic Net-lag3-level-10,120,0,1e-08,True
+Elastic Net-lag3-level-30,120,0,1e-08,True
+Elastic Net-lag3-level-60,120,0,1e-08,True
+Elastic Net-lag5-difference-10,120,0,1e-08,True
+Elastic Net-lag5-difference-30,120,0,1e-08,True
+Elastic Net-lag5-difference-60,120,0,1e-08,True
+Elastic Net-lag5-level-10,120,0,1e-08,True
+Elastic Net-lag5-level-30,120,0,1e-08,True
+Elastic Net-lag5-level-60,120,0,1e-08,True
+HistGradientBoosting-engineered-difference-10,120,0,1e-08,True
+HistGradientBoosting-engineered-difference-30,120,0,1e-08,True
+HistGradientBoosting-engineered-difference-60,120,0,1e-08,True
+HistGradientBoosting-engineered-level-10,120,0,1e-08,True
+HistGradientBoosting-engineered-level-30,120,0,1e-08,True
+HistGradientBoosting-engineered-level-60,120,0,1e-08,True
+HistGradientBoosting-lag3-difference-10,120,0,1e-08,True
+HistGradientBoosting-lag3-difference-30,120,0,1e-08,True
+HistGradientBoosting-lag3-difference-60,120,0,1e-08,True
+HistGradientBoosting-lag3-level-10,120,0,1e-08,True
+HistGradientBoosting-lag3-level-30,120,0,1e-08,True
+HistGradientBoosting-lag3-level-60,120,0,1e-08,True
+HistGradientBoosting-lag5-difference-10,120,0,1e-08,True
+HistGradientBoosting-lag5-difference-30,120,0,1e-08,True
+HistGradientBoosting-lag5-difference-60,120,0,1e-08,True
+HistGradientBoosting-lag5-level-10,120,0,1e-08,True
+HistGradientBoosting-lag5-level-30,120,0,1e-08,True
+HistGradientBoosting-lag5-level-60,120,0,1e-08,True
+Ridge-engineered-difference-10,120,0,1e-08,True
+Ridge-engineered-difference-30,120,0,1e-08,True
+Ridge-engineered-difference-60,120,0,1e-08,True
+Ridge-engineered-level-10,120,0,1e-08,True
+Ridge-engineered-level-30,120,0,1e-08,True
+Ridge-engineered-level-60,120,0,1e-08,True
+Ridge-lag3-difference-10,120,0,1e-08,True
+Ridge-lag3-difference-30,120,0,1e-08,True
+Ridge-lag3-difference-60,120,0,1e-08,True
+Ridge-lag3-level-10,120,0,1e-08,True
+Ridge-lag3-level-30,120,0,1e-08,True
+Ridge-lag3-level-60,120,0,1e-08,True
+Ridge-lag5-difference-10,120,0,1e-08,True
+Ridge-lag5-difference-30,120,0,1e-08,True
+Ridge-lag5-difference-60,120,0,1e-08,True
+Ridge-lag5-level-10,120,0,1e-08,True
+Ridge-lag5-level-30,120,0,1e-08,True
+Ridge-lag5-level-60,120,0,1e-08,True
+CatBoost-lag3-difference-10,120,0,1e-08,True
+CatBoost-lag3-level-10,120,0,1e-08,True
+XGBoost-lag3-difference-10,120,0,1e-08,True
+XGBoost-lag3-level-10,120,0,1e-08,True
+Random Forest-lag3-difference-10,120,0,1e-08,True
+Random Forest-lag3-level-10,120,0,1e-08,True

@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/Alessito123/SP-06/actions/runs/45210415452",
+  "conclusion": "success",
+  "tested_commit": "989c3b8e68258f9557baeb155c89161cf545dc86",
+  "local_clean_tests": 12,
+  "clean_checkout_predictions": 7800,
+  "configurations": 65,
+  "max_absolute_difference": 0,
+  "scope": "Refit archived parameters for all predictions; repeat one-trial Ridge optimization across processes.",
+  "full_optuna_search_repeated": false
+}

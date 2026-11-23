@@ -1,0 +1,61 @@
+{
+  "countries": 19,
+  "cells": 38,
+  "model_MAE": 0.6248997173610248,
+  "baseline_MAE": 0.6315789473684212,
+  "delta_MAE": -0.0066792300073964354,
+  "CI_lower": -0.039871433133502325,
+  "CI_upper": 0.02789411982252012,
+  "countries_better_pct": 68.42105263157895,
+  "by_year": {
+    "error": {
+      "2022": 0.8470569016385768,
+      "2023": 0.4027425330834727
+    },
+    "baseline_error": {
+      "2022": 0.8263157894736843,
+      "2023": 0.43684210526315814
+    }
+  },
+  "excluded_PER": [
+    {
+      "year": 2022,
+      "probability_pct": 10.1,
+      "forecast": 12.021419328401223,
+      "baseline": 11.7
+    },
+    {
+      "year": 2023,
+      "probability_pct": 10.4,
+      "forecast": 10.443274072741888,
+      "baseline": 10.1
+    }
+  ],
+  "raw_sha256": "f61ab56d2918d8e618c2a20ee9c70a22557dff1a78895b2b8fac448d17a34d33",
+  "protocol_sha256": "eea236174c9b4a5c876421cd93f40073290be3094021447f68528e455fb2dd95",
+  "urls": [
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27ARG%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27BOL%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27BRA%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27CHL%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27COL%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27CRI%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27CUB%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27DOM%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27ECU%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27GTM%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27HND%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27HTI%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27MEX%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27NIC%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27PAN%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27PER%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27PRY%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27SLV%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27URY%27&%24top=1000",
+    "https://ghoapi.azureedge.net/api/NCDMORT3070?%24filter=SpatialDim+eq+%27VEN%27&%24top=1000"
+  ],
+  "source_dates": [
+    "2026-10-15T13:31:02.39+02:00"
+  ]
+}

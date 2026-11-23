@@ -1,5 +1,10 @@
 # Auditoría científica de SP-06 para RPMESP
 
+Esta auditoría documenta el cierre de los 65 experimentos originales. La revisión
+final posterior, la reproducción desde un clon limpio y la extensión OMS
+2022–2023 están en [final_audit/INFORME_FINAL.md](final_audit/INFORME_FINAL.md).
+Las consultas antiguas sobre ausencia de años posteriores se refieren a WDI.
+
 ## Alcance y conservación
 
 El punto de partida es 2dfc3941b7bf95ff690e899f9fba60eaeec08a1f. La rama research/rpmesp-audit-20261123 conserva los cambios locales previos en el commit 0aab220. Los archivos históricos y las corridas locales se conservan. PROTOCOLO.md describe tasas por 100 000 y redes neuronales. protocol_v2.py y research.py operan con probabilidad porcentual SH.DYN.NCOM.ZS. El protocolo editorial de este directorio es independiente del histórico.

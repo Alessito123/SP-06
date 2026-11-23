@@ -15,6 +15,27 @@ from research import ROOT, features, learner, predict_model, run
 
 
 class IntegrationTest(unittest.TestCase):
+    def test_frozen_who_extension_offline(self):
+        folder = ROOT / "science/final_audit"
+        self.assertTrue((folder / "extension_evaluation.csv").exists(),
+                        "The frozen WHO extension must be present in this checkout")
+        protocol = json.loads((folder / "extension_protocol.json").read_text(encoding="utf-8-sig"))
+        data = pd.read_csv(folder / "who_release_panel.csv")
+        rows, columns = features(data[["iso3", "year", "probability_pct"]], "lag5")
+        train = rows[rows.year <= protocol["train_last_year"]]
+        test = rows[rows.year.isin(protocol["test_years"])]
+        model = learner("Ridge", optuna.trial.FixedTrial({"alpha": protocol["alpha"]}), 606)
+        model.fit(train[columns], train.delta)
+        expected = pd.read_csv(folder / "extension_evaluation.csv").set_index(["iso3", "year"])
+        actual = predict_model(model, test, columns, "difference")
+        np.testing.assert_allclose(
+            actual, expected.loc[list(zip(test.iso3, test.year)), "forecast"], atol=1e-10, rtol=1e-10
+        )
+        primary = expected[expected.primary]
+        self.assertEqual(len(primary), 38)
+        self.assertNotIn("PER", primary.index.get_level_values("iso3"))
+        self.assertEqual(train.year.max(), 2021)
+
     def test_archived_best_predictions_from_parameters(self):
         data = read_data((ROOT / "wdi_mortality.csv").read_bytes())
         rows, columns = features(data, "lag5")

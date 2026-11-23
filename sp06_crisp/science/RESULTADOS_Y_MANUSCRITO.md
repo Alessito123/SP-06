@@ -1,5 +1,10 @@
 # Resultados exploratorios y propuesta para el manuscrito RPMESP
 
+Versión del análisis exploratorio de 65 configuraciones. La revisión editorial
+final y la nueva extensión de la OMS se documentan en
+[final_audit/INFORME_FINAL.md](final_audit/INFORME_FINAL.md). La consulta de
+disponibilidad temporal citada aquí corresponde a WDI.
+
 Estos resultados corresponden a seis orígenes externos anuales, 2013–2018, con 20 países por origen. Los intervalos remuestrean países y están condicionados a los modelos y a la búsqueda realizada. Las configuraciones se eligieron después de comparar múltiples experimentos exploratorios.
 
 | Método y configuración exploratoria | MAE pp | RMSE pp | MASE | Δ frente a persistencia | IC95 % | Países con menor error |
