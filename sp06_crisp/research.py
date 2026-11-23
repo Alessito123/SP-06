@@ -132,7 +132,8 @@ def run(output, models, budgets, modes):
                     intervals.append({"experiment":experiment,"method":method,"year":year,"iso3":row.iso3,
                                       "coverage":lo[idx]<=row.observed<=hi[idx],"width":hi[idx]-lo[idx],
                                       "nominal":.9,"calibration_last_year":year-1,"calibration_n":len(values),
-                                      "finite_rank_capped":int(np.ceil((len(values)+1)*.9))>len(values)})
+                                      "full_support_due_to_small_n":method != "empirical" and
+                                      int(np.ceil((len(values)+1)*.9))>len(values)})
     summary = pd.DataFrame(summaries).sort_values("MAE")
     summary.to_csv(output / "experiments.csv", index=False)
     pd.DataFrame(intervals).to_csv(output / "intervals.csv", index=False)
