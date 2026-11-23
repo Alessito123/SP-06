@@ -16,6 +16,17 @@ from sklearn.preprocessing import StandardScaler
 from xgboost import XGBRegressor
 
 from modeling import FEATURES, prepare
+from sklearn.base import BaseEstimator, RegressorMixin
+
+
+class PersistenceRegressor(RegressorMixin, BaseEstimator):
+    """Predict the previous observed probability on the historical log scale."""
+    def fit(self, X, y=None):
+        self.n_features_in_ = X.shape[1]
+        return self
+
+    def predict(self, X):
+        return np.log1p(X["lag1"].to_numpy())
 
 SPACES = {
     "Ridge": {"alpha": (0.001, 100.0, "log")},
@@ -188,9 +199,10 @@ def evaluate_nested(development: pd.DataFrame, settings: dict, progress, on_even
                                 "hiperparámetros": str(params)})
     scores = pd.DataFrame(fold_scores)
     ranking = scores.groupby("modelo")["MAE log"].mean()
-    winner = ranking.drop("Persistencia").idxmin()
-    params = tune(winner, development, "Final")
-    fitted = estimator(winner, params, seed).fit(development[FEATURES], development.target)
+    winner = ranking.idxmin()
+    params = {} if winner == "Persistencia" else tune(winner, development, "Final")
+    fitted = (PersistenceRegressor() if winner == "Persistencia"
+              else estimator(winner, params, seed)).fit(development[FEATURES], development.target)
     if on_event:
         on_event(f"Ajuste final de {winner} completado en {monotonic() - started:.1f} s")
     return fitted, winner, params, fold_summary(partitions), scores, pd.DataFrame(history)

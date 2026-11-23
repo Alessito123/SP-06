@@ -78,6 +78,12 @@ def shap_values(model, background, inputs):
     import shap
 
     fitted = getattr(model, "best_estimator_", model)
+    from protocol_v2 import PersistenceRegressor
+    if isinstance(fitted, PersistenceRegressor):
+        import numpy as np
+        values = np.zeros((len(inputs), len(inputs.columns)))
+        values[:, 0] = np.log1p(inputs.lag1) - np.log1p(background.lag1).mean()
+        return values
     if hasattr(fitted, "steps"):
         transform = fitted[:-1]
         explanation = shap.LinearExplainer(fitted.steps[-1][1], transform.transform(background))

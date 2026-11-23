@@ -1,0 +1,14 @@
+{
+  "id": "RPMESP-exploratory-v1",
+  "unit": "probability_pct",
+  "seed": 606,
+  "outer_years": [2013, 2014, 2015, 2016, 2017, 2018],
+  "inner": "three expanding annual origins strictly preceding each outer year",
+  "selection_metric": "country-year MAE in percentage points",
+  "budgets": [10, 30, 60],
+  "sampler_startup_trials": 10,
+  "pruning": "disabled for three dependent temporal blocks",
+  "examined_period": [2019, 2020, 2021],
+  "confirmation": "pending an independent comparable release and pre-specified assessment",
+  "covariates": "pending publication-vintage and release-lag metadata"
+}

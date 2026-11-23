@@ -1,0 +1,24 @@
+{
+  "wdi_mortality.csv": {
+    "bytes_sha256": "a0556b00767935eb7f9b42a690126df9934531a0e16576a42ee3895f71fcbf6d",
+    "canonical_sha256": "1baf7328dd55ebb17a90b4e904266c6d3a750f7967598e9ce4c78e4c84aec776",
+    "rows": 440,
+    "bom": false,
+    "crlf": 441
+  },
+  "sp06_crisp\\wdi_mortality.csv": {
+    "bytes_sha256": "a0556b00767935eb7f9b42a690126df9934531a0e16576a42ee3895f71fcbf6d",
+    "canonical_sha256": "1baf7328dd55ebb17a90b4e904266c6d3a750f7967598e9ce4c78e4c84aec776",
+    "rows": 440,
+    "bom": false,
+    "crlf": 441
+  },
+  "original_commit": "2dfc3941b7bf95ff690e899f9fba60eaeec08a1f",
+  "snapshot_commit": "0aab220c4453efc9d154cce6c34d2edf472a5ce2",
+  "encoding_variants": {
+    "utf-8'\\n'": "26cc4eb59d77493b19d4a0e3d71a3024401c767cd46892f27bcc532d21ac0d70",
+    "utf-8'\\r\\n'": "a0556b00767935eb7f9b42a690126df9934531a0e16576a42ee3895f71fcbf6d",
+    "utf-8-sig'\\n'": "a3caa7bbd6febd418c5b0827a7881d1b9561fa3c6a5405a146255edb97dbbb62",
+    "utf-8-sig'\\r\\n'": "fe4d18b6c5b901ae2bcf402db61d02a9f245a713a4d3e00e6bde474db1502449"
+  }
+}

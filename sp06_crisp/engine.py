@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import subprocess
 from importlib.metadata import version
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -34,6 +35,12 @@ def save_run(model, metadata, tables):
             **metadata, "id": run, "features": FEATURES, "target": "log1p(probability_pct)",
             "versions": {name: version(name) for name in LIBRARIES},
             "model_sha256": hashlib.sha256(model_path.read_bytes()).hexdigest(),
+            "code_commit": subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip(),
+            "code_dirty": bool(subprocess.check_output(["git", "status", "--porcelain"], text=True).strip()),
+            "source_sha256": {
+                name: hashlib.sha256(Path(__file__).with_name(name).read_bytes()).hexdigest()
+                for name in ("engine.py", "protocol_v2.py", "modeling.py", "workflow.py")
+            },
         }
         (staging / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
         for name, table in tables.items():
@@ -78,7 +85,8 @@ def load_run(run):
         model.load_model(bytearray(payload))
     else:
         # Runs are written by this application. No model uploads are accepted.
-        trusted = ["sklearn.tree._tree.Tree"] if manifest["model"] == "Random Forest" else []
+        trusted = (["protocol_v2.PersistenceRegressor"] if manifest["model"] == "Persistencia"
+                   else ["sklearn.tree._tree.Tree"] if manifest["model"] == "Random Forest" else [])
         try:
             model = skops.io.loads(payload, trusted=trusted)
         except UntrustedTypesFoundException as error:

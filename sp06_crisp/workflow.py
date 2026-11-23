@@ -172,6 +172,17 @@ padding:1.5rem 2rem;border-radius:16px;margin-bottom:1rem">
 <div>Protocolo de siete fases · Pronóstico nacional a un año</div>
 </div>""")
     st.markdown("[Indicador SH.DYN.NCOM.ZS · OMS y Banco Mundial](https://data.worldbank.org/indicator/SH.DYN.NCOM.ZS)")
+    with st.expander("Auditoría RPMESP y experimentos rolling-origin"):
+        st.caption("El protocolo de investigación nuevo se ejecuta por consola y conserva resultados "
+                   "exploratorios independientes de la interacción de esta aplicación.")
+        for folder in ("baselines", "ablations", "trees"):
+            path = Path(__file__).with_name("science") / folder / "experiments.csv"
+            if path.exists():
+                st.write(folder)
+                content = path.read_bytes()
+                st.download_button(f"Descargar experimentos {folder}", content,
+                                   f"sp06-{folder}.csv", "text/csv")
+        st.code("python sp06_crisp/research.py --output carpeta_nueva", language="powershell")
     data_tab, training, evaluation, explanation, reports, motor, optimization, defense = st.tabs(
         PHASES, key="v2_section", on_change="rerun"
     )
@@ -275,7 +286,10 @@ padding:1.5rem 2rem;border-radius:16px;margin-bottom:1rem">
                 st.error(f"No se pudo cargar la corrida. {error}")
                 run = None
         if run:
-            st.success(f"Modelo ajustado seleccionado · {manifest['model']}")
+            st.success(f"Método seleccionado · {manifest['model']}")
+            adjustable = tables["scores"].query("modelo != 'Persistencia'").groupby("modelo")["MAE log"].mean()
+            if not adjustable.empty:
+                st.write(f"Mejor modelo ajustable · {adjustable.idxmin()}")
             st.caption(f"Corrida {run} · ajuste hasta {manifest['cutoff']}")
             if "duration_seconds" in manifest:
                 st.write(f"Duración registrada · {manifest['duration_seconds']:.1f} s")
