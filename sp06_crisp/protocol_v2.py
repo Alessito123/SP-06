@@ -1,13 +1,15 @@
 """Panel validation, chronological partitioning and nested Optuna search."""
 import json
+import warnings
 from io import BytesIO
+from time import monotonic
 
 import numpy as np
 import optuna
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import Ridge
-from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_absolute_error, root_mean_squared_error
 from sklearn.model_selection import GroupKFold
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
@@ -78,26 +80,57 @@ def estimator(name, params, seed):
     return XGBRegressor(**params, random_state=seed, n_jobs=1, objective="reg:squarederror")
 
 
-def evaluate_nested(development, settings, progress):
-    """Only development rows enter model selection and hyperparameter search."""
-    names = settings["models"]
-    seed = settings["seed"]
-    fold_scores, fold_details, history = [], [], []
+def outer_partitions(development: pd.DataFrame):
+    """Separate countries and target years before the first model fit."""
     years = sorted(development.year.unique())
     cutoff = years[-max(2, len(years) // 4)]
     if development.iso3.nunique() < 5:
         raise ValueError("Se requieren al menos cinco países con rezagos válidos.")
-    partitions = []
     for train, test in GroupKFold(5).split(development, groups=development.iso3):
         earlier = development.iloc[train].query("year < @cutoff")
         later = development.iloc[test].query("year >= @cutoff")
         if earlier.iso3.nunique() < 3 or later.empty:
             raise ValueError("La cobertura impide formar cinco folds externos y tres internos.")
-        partitions.append((earlier, later))
+        yield earlier, later
+
+
+def fold_summary(partitions) -> pd.DataFrame:
+    return pd.DataFrame([
+        {"fold": fold, "países de prueba": ", ".join(sorted(later.iso3.unique())),
+         "países de ajuste": ", ".join(sorted(earlier.iso3.unique())),
+         "años de ajuste": f"{earlier.year.min()}–{earlier.year.max()}",
+         "años de evaluación": f"{later.year.min()}–{later.year.max()}",
+         "n entrenamiento": len(earlier), "n evaluación": len(later)}
+        for fold, (earlier, later) in enumerate(partitions, 1)
+    ])
+
+
+def forecast_metrics(rows: pd.DataFrame, log_prediction: np.ndarray, scale_rows: pd.DataFrame) -> dict:
+    """Score frozen predictions. Unseen countries use the pooled training scale."""
+    prediction = np.expm1(log_prediction).clip(0, 100)
+    error = (rows.probability_pct - prediction).abs()
+    differences = (scale_rows.probability_pct - scale_rows.lag1).abs()
+    country_scale = differences.groupby(scale_rows.iso3).mean()
+    scales = rows.iso3.map(country_scale).fillna(differences.mean())
+    valid = scales.gt(0)
+    return {"MAE log": mean_absolute_error(rows.target, log_prediction),
+            "MAE (pp)": float(error.mean()),
+            "RMSE (pp)": root_mean_squared_error(rows.probability_pct, prediction),
+            "MASE": float((error[valid] / scales[valid]).mean()) if valid.any() else None}
+
+
+def evaluate_nested(development: pd.DataFrame, settings: dict, progress, on_event=None):
+    """Only development rows enter model selection and hyperparameter search."""
+    names = settings["models"]
+    seed = settings["seed"]
+    fold_scores, history = [], []
+    partitions = list(outer_partitions(development))
     total = (5 * len(names) + 1) * settings["trials"]
 
     def tune(name, rows, fold):
         splits = list(GroupKFold(3).split(rows, groups=rows.iso3))
+        if on_event:
+            on_event(f"Fold {fold} · buscando hiperparámetros de {name}")
 
         def objective(trial):
             params = {}
@@ -105,12 +138,20 @@ def evaluate_nested(development, settings, progress):
                 params[key] = (trial.suggest_int(key, low, high) if kind == "int"
                                else trial.suggest_float(key, low, high, log=kind == "log"))
             errors = []
-            for step, (train, test) in enumerate(splits):
-                fitted = estimator(name, params, seed).fit(rows.iloc[train][FEATURES], rows.iloc[train].target)
-                errors.append(mean_absolute_error(rows.iloc[test].target, fitted.predict(rows.iloc[test][FEATURES])))
-                trial.report(float(np.mean(errors)), step)
-                if trial.should_prune():
-                    raise optuna.TrialPruned()
+            with warnings.catch_warnings(record=True) as captured:
+                warnings.simplefilter("always")
+                try:
+                    for step, (train, test) in enumerate(splits):
+                        fitted = estimator(name, params, seed).fit(rows.iloc[train][FEATURES], rows.iloc[train].target)
+                        errors.append(mean_absolute_error(rows.iloc[test].target, fitted.predict(rows.iloc[test][FEATURES])))
+                        trial.report(float(np.mean(errors)), step)
+                        if step < len(splits) - 1 and trial.should_prune():
+                            raise optuna.TrialPruned()
+                except ValueError as error:
+                    trial.set_user_attr("error", str(error))
+                    raise
+                finally:
+                    trial.set_user_attr("warnings", list(dict.fromkeys(str(item.message) for item in captured)))
             return float(np.mean(errors))
 
         def record(study, trial):
@@ -118,6 +159,9 @@ def evaluate_nested(development, settings, progress):
             history.append({"fold": fold, "modelo": name, "trial": trial.number + 1,
                             "estado": trial.state.name, "MAE log": trial.value,
                             "mejor MAE log": min(completed, default=None),
+                            "duración (s)": trial.duration.total_seconds() if trial.duration else 0,
+                            "avisos": " | ".join(trial.user_attrs.get("warnings", [])),
+                            "error": trial.user_attrs.get("error", ""),
                             "parámetros": json.dumps(trial.params)})
             progress(len(history), total, history[-1])
 
@@ -131,27 +175,25 @@ def evaluate_nested(development, settings, progress):
             raise ValueError(f"Optuna no completó trials válidos para {name} en el fold {fold}.")
         return study.best_params
 
+    started = monotonic()
     for fold, (earlier, later) in enumerate(partitions, 1):
-        fold_details.append({"fold": fold, "países de prueba": ", ".join(sorted(later.iso3.unique())),
-                             "países de ajuste": ", ".join(sorted(earlier.iso3.unique())),
-                             "años de ajuste": f"{earlier.year.min()}–{earlier.year.max()}",
-                             "años de evaluación": f"{later.year.min()}–{later.year.max()}",
-                             "n entrenamiento": len(earlier), "n evaluación": len(later)})
         fold_scores.append({"fold": fold, "modelo": "Persistencia",
-                            "MAE log": mean_absolute_error(later.target, np.log1p(later.lag1)),
+                            **forecast_metrics(later, np.log1p(later.lag1.to_numpy()), earlier),
                             "hiperparámetros": "—"})
         for name in names:
             params = tune(name, earlier, str(fold))
             fitted = estimator(name, params, seed).fit(earlier[FEATURES], earlier.target)
             fold_scores.append({"fold": fold, "modelo": name,
-                                "MAE log": mean_absolute_error(later.target, fitted.predict(later[FEATURES])),
+                                **forecast_metrics(later, fitted.predict(later[FEATURES]), earlier),
                                 "hiperparámetros": str(params)})
     scores = pd.DataFrame(fold_scores)
     ranking = scores.groupby("modelo")["MAE log"].mean()
     winner = ranking.drop("Persistencia").idxmin()
     params = tune(winner, development, "Final")
     fitted = estimator(winner, params, seed).fit(development[FEATURES], development.target)
-    return fitted, winner, params, pd.DataFrame(fold_details), scores, pd.DataFrame(history)
+    if on_event:
+        on_event(f"Ajuste final de {winner} completado en {monotonic() - started:.1f} s")
+    return fitted, winner, params, fold_summary(partitions), scores, pd.DataFrame(history)
 
 
 def calibrate(model, validation):

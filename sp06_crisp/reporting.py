@@ -12,6 +12,9 @@ INTERPRETATION = (
 )
 
 READING = {
+    "plan-geografico": "Contrasta los países y años de ajuste con los de evaluación dentro de cada fila.",
+    "resumen-desarrollo": "Compara las medias y revisa la desviación para ver la variación entre folds.",
+    "dispersion-desarrollo": "Lee la posición horizontal de los puntos y compárala con persistencia.",
     "portada": "Compara las líneas de observado, modelo y persistencia para el mismo año.",
     "mapa": "Consulta la leyenda de color y pasa el cursor sobre un país para ver su valor.",
     "ranking-paises": "Compara la longitud de las barras en la escala horizontal de probabilidad.",

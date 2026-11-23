@@ -4,6 +4,8 @@ El [protocolo](PROTOCOLO.md) contiene el plan científico, el cálculo muestral,
 
 ## Despliegue CRISP-DM y protocolo de siete fases
 
+La [guía técnica de entrenamiento](sp06_crisp/ENTRENAMIENTO.md) describe la implementación y sus pruebas en doce pasos.
+
 ```powershell
 .\.venv\Scripts\python -m pip install -r sp06_crisp/requirements.txt
 .\.venv\Scripts\python -m streamlit run sp06_crisp/app.py --server.address 127.0.0.1 --server.port 8502

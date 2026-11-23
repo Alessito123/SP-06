@@ -13,7 +13,7 @@ from sklearn.metrics import mean_absolute_error, root_mean_squared_error
 
 from engine import forecast, list_runs, load_run, save_run
 from modeling import FEATURES, statistical_tests
-from protocol_v2 import SPACES, calibrate, evaluate_nested, read_data, split_panel
+from protocol_v2 import SPACES, calibrate, evaluate_nested, fold_summary, outer_partitions, read_data, split_panel
 from reporting import build_report, show_bar, show_chart, show_line, show_table
 from visuals import BLUE, COUNTRY_NAMES, correlation_chart, country_map, forecast_chart, shap_importance, shap_values
 
@@ -198,7 +198,7 @@ padding:1.5rem 2rem;border-radius:16px;margin-bottom:1rem">
         launch_optuna = st.button("Iniciar búsqueda y guardar corrida")
         optuna_status = st.empty()
     with training:
-        st.header("Entrenamiento y selección")
+        st.header("Entrenamiento de modelos de IA")
         st.caption("Cinco folds externos por país con corte temporal y tres folds internos agrupados por país.")
         split = pd.DataFrame([
             {"Etapa": name, "Inicio": years[0], "Fin": years[-1], "Años": len(years),
@@ -209,9 +209,26 @@ padding:1.5rem 2rem;border-radius:16px;margin-bottom:1rem">
         show_table("particion", "El calendario usa años enteros. Los conteos elegibles excluyen filas sin tres rezagos.",
                    split, hide_index=True)
         st.write(f"Modelos activos · Persistencia, {', '.join(settings['models'])}")
-        if st.button("Entrenar y guardar corrida", type="primary") or launch_optuna:
+        st.caption(f"{settings['trials']} ensayos por estudio · semilla {settings['seed']} · rangos editables en fase 7")
+        try:
+            planned = fold_summary(outer_partitions(blocks["Desarrollo"]))
+        except ValueError as error:
+            st.warning(str(error))
+            planned = None
+        if planned is not None:
+            with st.expander("Particiones por país antes de entrenar"):
+                show_table("plan-geografico", "Cada fold deja fuera países completos y evalúa objetivos posteriores.",
+                           planned, hide_index=True)
+        launch_training = st.button("Entrenar y guardar corrida", type="primary", disabled=planned is None)
+        if planned is not None and (launch_training or launch_optuna):
             meter = st.progress(0, text="Iniciando validación anidada")
+            event_view = st.empty()
+            events = []
             started = time.monotonic()
+
+            def event(message):
+                events.append(message)
+                event_view.info(message)
 
             def progress(done, total, last):
                 elapsed = time.monotonic() - started
@@ -225,14 +242,18 @@ padding:1.5rem 2rem;border-radius:16px;margin-bottom:1rem">
 
             try:
                 model, winner, params, folds, scores, trials = evaluate_nested(
-                    blocks["Desarrollo"], settings, progress
+                    blocks["Desarrollo"], settings, progress, event
                 )
+                event("Calibrando la banda con el bloque de validación")
                 radius = calibrate(model, blocks["Validación"])
+                event("Guardando el modelo y el manifiesto")
                 run = save_run(model, {
                     "created": datetime.now(timezone.utc).isoformat(), "model": winner,
                     "params": params, "cutoff": calendar["Desarrollo"][-1], "radius": radius,
                     "calendar": calendar, "dataset_sha256": fingerprint, "source": metadata,
                     "settings": settings,
+                    "duration_seconds": time.monotonic() - started,
+                    "events": events,
                 }, {"folds": folds, "scores": scores, "trials": trials})
             except (ValueError, RuntimeError, OSError) as error:
                 meter.empty()
@@ -256,11 +277,34 @@ padding:1.5rem 2rem;border-radius:16px;margin-bottom:1rem">
         if run:
             st.success(f"Modelo ajustado seleccionado · {manifest['model']}")
             st.caption(f"Corrida {run} · ajuste hasta {manifest['cutoff']}")
+            if "duration_seconds" in manifest:
+                st.write(f"Duración registrada · {manifest['duration_seconds']:.1f} s")
+                with st.expander("Registro de eventos"):
+                    st.text("\n".join(manifest["events"]))
+            st.download_button("Descargar manifiesto de entrenamiento",
+                               json.dumps(manifest, ensure_ascii=False, indent=2),
+                               f"sp06-{run}.json", "application/json")
             show_table("folds", "Los países de ajuste y de evaluación externa son disjuntos en cada fold.",
                        tables["folds"], hide_index=True)
             show_table("hiperparametros", "Optuna elige los hiperparámetros con tres folds internos. "
                        "La columna MAE log corresponde a la evaluación externa de ese ajuste.",
                        tables["scores"], hide_index=True)
+            scores = tables["scores"]
+            columns = [key for key in ("MAE log", "MAE (pp)", "RMSE (pp)", "MASE") if key in scores]
+            metric = st.selectbox("Métrica externa para comparar", columns)
+            summary = scores.groupby("modelo")[metric].agg(["mean", "std", "count"]).reset_index()
+            summary = summary.rename(columns={"mean": "Media", "std": "Desviación", "count": "Folds"})
+            summary = summary.sort_values("Media")
+            show_table("resumen-desarrollo", "Media y desviación estándar de los folds externos. "
+                       "La selección del candidato usa el MAE log medio.", summary, hide_index=True)
+            plot = alt.Chart(scores).mark_circle(size=75, opacity=0.7).encode(
+                x=alt.X(f"{metric}:Q", title=metric), y=alt.Y("modelo:N", title="Modelo"),
+                color=alt.Color("modelo:N", legend=None), tooltip=["modelo", "fold", metric],
+            )
+            show_chart("dispersion-desarrollo", "Cada punto representa un fold y permite ver la dispersión "
+                       "que queda oculta al comparar solo medias.", plot, width="stretch")
+            st.caption("Para MASE externo, la escala de persistencia se calcula con los países de ajuste "
+                       "porque los países evaluados están excluidos del entrenamiento.")
     if not run:
         for section in (evaluation, explanation, reports, motor):
             section.info("Entrena o selecciona una corrida guardada en la fase 2.")
