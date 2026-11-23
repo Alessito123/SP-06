@@ -3,6 +3,7 @@ __pycache__/
 .env
 results/
 sp06_crisp/runs/
+catboost_info/
 *.csv
 !/wdi_mortality.csv
 !/sp06_crisp/wdi_mortality.csv

@@ -30,7 +30,7 @@ def learner(name, trial, seed):
         return CatBoostRegressor(iterations=trial.suggest_int("iterations", 50, 150),
                                  depth=trial.suggest_int("depth", 2, 4),
                                  learning_rate=trial.suggest_float("learning_rate", .01, .15, log=True),
-                                 random_seed=seed, verbose=False, thread_count=1)
+                                 random_seed=seed, verbose=False, thread_count=1, allow_writing_files=False)
     return XGBRegressor(n_estimators=trial.suggest_int("n_estimators", 50, 150),
                         max_depth=trial.suggest_int("max_depth", 2, 4),
                         learning_rate=trial.suggest_float("learning_rate", .01, .15, log=True),
