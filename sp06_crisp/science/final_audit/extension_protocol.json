@@ -1,0 +1,23 @@
+{
+ "id":"RPMESP-WHO2023-independent-extension-v1",
+ "frozen_before_full_outcome_download":true,
+ "created_date":"2026-11-23",
+ "indicator":"NCDMORT3070",
+ "sex":"SEX_BTSX",
+ "age":"AGEGROUP_YEARS30-69",
+ "train_last_year":2021,
+ "test_years":[2022,2023],
+ "primary_countries":"original 20 countries excluding PER",
+ "excluded_primary":"PER outcomes were inspected in the discovery probe",
+ "model":"Ridge",
+ "features":"lag5",
+ "target":"difference",
+ "alpha":3.34804236045702,
+ "alpha_source":"Ridge-lag5-difference-60, original final rolling origin 2018",
+ "baseline":"persistence",
+ "selection_metric":"MAE in percentage points",
+ "inference":"bootstrap whole countries, 5000 draws, seed606",
+ "policy":"homogeneous WHO release; refit through2021; no retuning or modification after opening2022-2023",
+ "interpretation":"retrospective temporal and source-vintage extension; no prospective deployment claim",
+ "coverage":"no new interval method selection using extension outcomes"
+}
