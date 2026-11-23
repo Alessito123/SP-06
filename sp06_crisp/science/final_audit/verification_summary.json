@@ -7,5 +7,8 @@
   "configurations": 65,
   "max_absolute_difference": 0,
   "scope": "Refit archived parameters for all predictions; repeat one-trial Ridge optimization across processes.",
-  "full_optuna_search_repeated": false
+  "full_optuna_search_repeated": false,
+  "local_clean_tests_final": 13,
+  "who_extension_offline_reproduction": "passed",
+  "clean_extension_checkout_commit": "a6798691743cae9c78b84706d09f4578f3b2d8b1"
 }

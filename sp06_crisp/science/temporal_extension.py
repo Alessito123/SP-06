@@ -22,10 +22,15 @@ def fetch(country):
  response=json.load(urllib.request.urlopen(url,timeout=40))
  if "@odata.nextLink" in response:raise ValueError("Unexpected pagination")
  return {"url":url,"response":response}
-with ThreadPoolExecutor(max_workers=4) as pool:
- responses=list(pool.map(fetch,countries))
-raw=json.dumps(responses,ensure_ascii=False).encode("utf8")
-(OUT/"who_release_raw.json").write_bytes(raw)
+archive=OUT/"who_release_raw.json"
+if archive.exists():
+ raw=archive.read_bytes()
+ responses=json.loads(raw)
+else:
+ with ThreadPoolExecutor(max_workers=4) as pool:
+  responses=list(pool.map(fetch,countries))
+ raw=json.dumps(responses,ensure_ascii=False).encode("utf8")
+ archive.write_bytes(raw)
 records=[]
 for row in [row for response in responses for row in response["response"]["value"]]:
  if row["Dim1"] != p["sex"]:continue

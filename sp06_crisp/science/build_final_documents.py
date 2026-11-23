@@ -23,6 +23,8 @@ def document(title):
  normal.paragraph_format.space_after=Pt(7)
  for name,size,color in [("Title",23,"000000"),("Heading 1",15,"102A43"),("Heading 2",12,"087E8B")]:
   d.styles[name].font.size=Pt(size);d.styles[name].font.color.rgb=RGBColor.from_string(color)
+ borders=d.styles["Title"].element.xpath(".//w:pBdr")
+ for border in borders:border.getparent().remove(border)
  d.add_paragraph(title,"Title")
  footer=s.footer.paragraphs[0];footer.alignment=2
  footer.add_run("SP-06 · ")
@@ -157,6 +159,7 @@ table(r,"Resumen de verificaciones",["Verificación","Resultado"],[
  ["Predicciones reproducidas","7 800 en 65 configuraciones"],
  ["Diferencia numérica máxima observada","0; tolerancia de verificación 1 × 10⁻⁸"],
  ["Pruebas iniciales en clon limpio","12 pruebas superadas"],
+ ["Pruebas en clon actualizado","13 pruebas superadas, incluida la extensión OMS sin conexión"],
  ["GitHub Actions","Ejecuciones 45210159007 y 45210415452 satisfactorias"],
  ["Búsqueda completa de Optuna","Registro conservado; repetición íntegra pendiente"],
  ["Extensión OMS","38 observaciones principales en 19 países; parámetros congelados"]
