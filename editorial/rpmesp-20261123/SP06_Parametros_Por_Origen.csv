@@ -1,0 +1,391 @@
+﻿experiment,origin,parameters_json,source
+Ridge-lag5-difference-60,2013,"{""alpha"": 1.013188661664591}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-60,2014,"{""alpha"": 0.7968534959942126}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-60,2015,"{""alpha"": 1.0669083147908651}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-60,2016,"{""alpha"": 1.1649893454394404}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-60,2017,"{""alpha"": 2.385067643880504}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-60,2018,"{""alpha"": 3.34804236045702}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-30,2013,"{""alpha"": 0.8450672721840478}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-30,2014,"{""alpha"": 0.8450672721840478}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-30,2015,"{""alpha"": 1.1393651471738873}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-30,2016,"{""alpha"": 1.0959193346241376}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-30,2017,"{""alpha"": 2.4181457621862767}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-30,2018,"{""alpha"": 3.34804236045702}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-10,2013,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-10,2014,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-10,2015,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-10,2016,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-10,2017,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-10,2018,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-10,2013,"{""alpha"": 0.6449499516934315}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-10,2014,"{""alpha"": 0.6449499516934315}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-10,2015,"{""alpha"": 2.2901690464477524}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-10,2016,"{""alpha"": 0.6449499516934315}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-10,2017,"{""alpha"": 2.2901690464477524}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-difference-10,2018,"{""alpha"": 2.2901690464477524}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-60,2013,"{""alpha"": 99.65018239473793}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-60,2014,"{""alpha"": 0.49437166378129765}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-60,2015,"{""alpha"": 0.5009314773512056}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-60,2016,"{""alpha"": 0.3442821287246052}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-60,2017,"{""alpha"": 0.20187895303177308}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-60,2018,"{""alpha"": 0.0010012528873548513}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-10,2013,"{""alpha"": 75.10951071794432}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-10,2014,"{""alpha"": 0.46617653101260037}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-10,2015,"{""alpha"": 0.6449499516934315}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-10,2016,"{""alpha"": 0.46617653101260037}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-10,2017,"{""alpha"": 0.46617653101260037}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-10,2018,"{""alpha"": 0.0012031118915115909}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-30,2013,"{""alpha"": 98.71785855107001}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-30,2014,"{""alpha"": 0.46617653101260037}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-30,2015,"{""alpha"": 0.5009314773512056}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-30,2016,"{""alpha"": 0.35714743494793805}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-30,2017,"{""alpha"": 0.20808723173686386}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-difference-30,2018,"{""alpha"": 0.0010090122148735008}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-30,2013,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-30,2014,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-30,2015,"{""alpha"": 0.007897799760996287, ""l1_ratio"": 0.06638832628547647}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-30,2016,"{""alpha"": 0.008492106226281571, ""l1_ratio"": 0.05765464790556052}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-30,2017,"{""alpha"": 0.007897799760996287, ""l1_ratio"": 0.06638832628547647}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-30,2018,"{""alpha"": 0.008801317764053844, ""l1_ratio"": 0.06638832628547647}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-60,2013,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-60,2014,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-60,2015,"{""alpha"": 0.007897799760996287, ""l1_ratio"": 0.06638832628547647}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-60,2016,"{""alpha"": 0.005095506719214194, ""l1_ratio"": 0.05013727171141839}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-60,2017,"{""alpha"": 0.007774941032187277, ""l1_ratio"": 0.0529540769457732}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-60,2018,"{""alpha"": 0.0113607266117015, ""l1_ratio"": 0.05183291452780098}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-60,2013,"{""learning_rate"": 0.0106371537160214, ""max_iter"": 50, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-60,2014,"{""learning_rate"": 0.0106371537160214, ""max_iter"": 50, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-60,2015,"{""learning_rate"": 0.010080539179650449, ""max_iter"": 55, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-60,2016,"{""learning_rate"": 0.01364052752858897, ""max_iter"": 58, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-60,2017,"{""learning_rate"": 0.011503506251313514, ""max_iter"": 150, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-60,2018,"{""learning_rate"": 0.012335955190313249, ""max_iter"": 83, ""max_leaf_nodes"": 4}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-30,2013,"{""learning_rate"": 0.0106371537160214, ""max_iter"": 50, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-30,2014,"{""learning_rate"": 0.0106371537160214, ""max_iter"": 50, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-30,2015,"{""learning_rate"": 0.01581230505434528, ""max_iter"": 50, ""max_leaf_nodes"": 9}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-30,2016,"{""learning_rate"": 0.015567747713434171, ""max_iter"": 55, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-30,2017,"{""learning_rate"": 0.013335648136683457, ""max_iter"": 138, ""max_leaf_nodes"": 9}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-difference-30,2018,"{""learning_rate"": 0.0106371537160214, ""max_iter"": 50, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-10,2013,"{""alpha"": 0.08338007432346771, ""l1_ratio"": 0.32905166945231074}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-10,2014,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-10,2015,"{""alpha"": 0.08338007432346771, ""l1_ratio"": 0.32905166945231074}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-10,2016,"{""alpha"": 0.08338007432346771, ""l1_ratio"": 0.32905166945231074}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-10,2017,"{""alpha"": 0.08338007432346771, ""l1_ratio"": 0.32905166945231074}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-10,2018,"{""alpha"": 0.08338007432346771, ""l1_ratio"": 0.32905166945231074}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-10,2013,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-10,2014,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-10,2015,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-10,2016,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-10,2017,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-10,2018,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-60,2013,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-60,2014,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-60,2015,"{""alpha"": 0.002857308046543377, ""l1_ratio"": 0.1564336706680558}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-60,2016,"{""alpha"": 0.0014972718752150568, ""l1_ratio"": 0.05010492824627875}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-60,2017,"{""alpha"": 0.001003687205699397, ""l1_ratio"": 0.5797309810874579}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-60,2018,"{""alpha"": 0.001012623256834436, ""l1_ratio"": 0.1241813950611722}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-30,2013,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-30,2014,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-30,2015,"{""alpha"": 0.003563073463254739, ""l1_ratio"": 0.12104634111694235}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-30,2016,"{""alpha"": 0.0013068138195904847, ""l1_ratio"": 0.07054631629283188}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-30,2017,"{""alpha"": 0.0010037572167017053, ""l1_ratio"": 0.39016233942638257}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-difference-30,2018,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-60,2013,"{""alpha"": 0.08338007432346771, ""l1_ratio"": 0.32905166945231074}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-60,2014,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-60,2015,"{""alpha"": 0.09048634111334848, ""l1_ratio"": 0.39193246969014445}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-60,2016,"{""alpha"": 0.06775162143649438, ""l1_ratio"": 0.5380668714018477}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-60,2017,"{""alpha"": 0.02810351745933685, ""l1_ratio"": 0.9123757461840322}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-60,2018,"{""alpha"": 0.029255027679853093, ""l1_ratio"": 0.9483053473269218}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-30,2013,"{""alpha"": 0.08338007432346771, ""l1_ratio"": 0.32905166945231074}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-30,2014,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-30,2015,"{""alpha"": 0.1052925441632614, ""l1_ratio"": 0.36633332547237674}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-30,2016,"{""alpha"": 0.08354845753124822, ""l1_ratio"": 0.35773372879417753}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-30,2017,"{""alpha"": 0.02810351745933685, ""l1_ratio"": 0.9123757461840322}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-difference-30,2018,"{""alpha"": 0.029615316458337117, ""l1_ratio"": 0.9457295657623748}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-10,2013,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-10,2014,"{""alpha"": 0.6449499516934315, ""l1_ratio"": 0.5303390730446176}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-10,2015,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-10,2016,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-10,2017,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-difference-10,2018,"{""alpha"": 0.0167159915834891, ""l1_ratio"": 0.24171448302178922}",sp06_crisp\science\ablations\predictions.csv
+Persistencia-lag3-level-0,2013,{},sp06_crisp\science\baselines\predictions.csv
+Persistencia-lag3-level-0,2014,{},sp06_crisp\science\baselines\predictions.csv
+Persistencia-lag3-level-0,2015,{},sp06_crisp\science\baselines\predictions.csv
+Persistencia-lag3-level-0,2016,{},sp06_crisp\science\baselines\predictions.csv
+Persistencia-lag3-level-0,2017,{},sp06_crisp\science\baselines\predictions.csv
+Persistencia-lag3-level-0,2018,{},sp06_crisp\science\baselines\predictions.csv
+Ridge-engineered-difference-60,2013,"{""alpha"": 99.65018239473793}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-60,2014,"{""alpha"": 0.0010012528873548513}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-60,2015,"{""alpha"": 0.0010012528873548513}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-60,2016,"{""alpha"": 0.10260210548464387}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-60,2017,"{""alpha"": 11.747577039516159}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-60,2018,"{""alpha"": 99.65018239473793}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-30,2013,"{""alpha"": 98.71785855107001}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-30,2014,"{""alpha"": 0.0010090122148735008}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-30,2015,"{""alpha"": 0.0010090122148735008}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-30,2016,"{""alpha"": 0.11880745150171808}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-30,2017,"{""alpha"": 11.747577039516159}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-30,2018,"{""alpha"": 98.71785855107001}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-10,2013,"{""alpha"": 75.10951071794432}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-10,2014,"{""alpha"": 0.0012031118915115909}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-10,2015,"{""alpha"": 0.0012031118915115909}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-10,2016,"{""alpha"": 0.01555664854800665}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-10,2017,"{""alpha"": 15.761568936754799}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-difference-10,2018,"{""alpha"": 75.10951071794432}",sp06_crisp\science\ablations\predictions.csv
+CatBoost-lag3-difference-10,2013,"{""depth"": 3, ""iterations"": 87, ""learning_rate"": 0.016483344114917767}",sp06_crisp\science\trees\predictions.csv
+CatBoost-lag3-difference-10,2014,"{""depth"": 3, ""iterations"": 87, ""learning_rate"": 0.016483344114917767}",sp06_crisp\science\trees\predictions.csv
+CatBoost-lag3-difference-10,2015,"{""depth"": 4, ""iterations"": 74, ""learning_rate"": 0.045798557305395754}",sp06_crisp\science\trees\predictions.csv
+CatBoost-lag3-difference-10,2016,"{""depth"": 4, ""iterations"": 74, ""learning_rate"": 0.045798557305395754}",sp06_crisp\science\trees\predictions.csv
+CatBoost-lag3-difference-10,2017,"{""depth"": 4, ""iterations"": 74, ""learning_rate"": 0.045798557305395754}",sp06_crisp\science\trees\predictions.csv
+CatBoost-lag3-difference-10,2018,"{""depth"": 3, ""iterations"": 87, ""learning_rate"": 0.016483344114917767}",sp06_crisp\science\trees\predictions.csv
+HistGradientBoosting-engineered-difference-60,2013,"{""learning_rate"": 0.01270838417708658, ""max_iter"": 64, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-60,2014,"{""learning_rate"": 0.01154353259013131, ""max_iter"": 69, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-60,2015,"{""learning_rate"": 0.01287152554663113, ""max_iter"": 58, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-60,2016,"{""learning_rate"": 0.01885317382418375, ""max_iter"": 68, ""max_leaf_nodes"": 11}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-60,2017,"{""learning_rate"": 0.02452992143804124, ""max_iter"": 150, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-60,2018,"{""learning_rate"": 0.010228798387213233, ""max_iter"": 53, ""max_leaf_nodes"": 10}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-10,2013,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-10,2014,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-10,2015,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-10,2016,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-10,2017,"{""learning_rate"": 0.028305374848756747, ""max_iter"": 103, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-10,2018,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-30,2013,"{""learning_rate"": 0.010660069392532355, ""max_iter"": 94, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-30,2014,"{""learning_rate"": 0.010660069392532355, ""max_iter"": 94, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-30,2015,"{""learning_rate"": 0.010660069392532355, ""max_iter"": 94, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-30,2016,"{""learning_rate"": 0.014251586352626586, ""max_iter"": 87, ""max_leaf_nodes"": 10}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-30,2017,"{""learning_rate"": 0.02452992143804124, ""max_iter"": 150, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-difference-30,2018,"{""learning_rate"": 0.015264342569011657, ""max_iter"": 51, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+XGBoost-lag3-difference-10,2013,"{""learning_rate"": 0.029448893988883677, ""max_depth"": 2, ""n_estimators"": 102, ""subsample"": 0.8917617277103178}",sp06_crisp\science\trees\predictions.csv
+XGBoost-lag3-difference-10,2014,"{""learning_rate"": 0.029448893988883677, ""max_depth"": 2, ""n_estimators"": 102, ""subsample"": 0.8917617277103178}",sp06_crisp\science\trees\predictions.csv
+XGBoost-lag3-difference-10,2015,"{""learning_rate"": 0.028305374848756747, ""max_depth"": 2, ""n_estimators"": 103, ""subsample"": 0.7930172231507702}",sp06_crisp\science\trees\predictions.csv
+XGBoost-lag3-difference-10,2016,"{""learning_rate"": 0.019395590425812317, ""max_depth"": 4, ""n_estimators"": 109, ""subsample"": 0.7639048276739298}",sp06_crisp\science\trees\predictions.csv
+XGBoost-lag3-difference-10,2017,"{""learning_rate"": 0.028305374848756747, ""max_depth"": 2, ""n_estimators"": 103, ""subsample"": 0.7930172231507702}",sp06_crisp\science\trees\predictions.csv
+XGBoost-lag3-difference-10,2018,"{""learning_rate"": 0.028305374848756747, ""max_depth"": 2, ""n_estimators"": 103, ""subsample"": 0.7930172231507702}",sp06_crisp\science\trees\predictions.csv
+Deriva amortiguada-lag3-level-0,2013,{},sp06_crisp\science\baselines\predictions.csv
+Deriva amortiguada-lag3-level-0,2014,{},sp06_crisp\science\baselines\predictions.csv
+Deriva amortiguada-lag3-level-0,2015,{},sp06_crisp\science\baselines\predictions.csv
+Deriva amortiguada-lag3-level-0,2016,{},sp06_crisp\science\baselines\predictions.csv
+Deriva amortiguada-lag3-level-0,2017,{},sp06_crisp\science\baselines\predictions.csv
+Deriva amortiguada-lag3-level-0,2018,{},sp06_crisp\science\baselines\predictions.csv
+Random Forest-lag3-difference-10,2013,"{""max_depth"": 6, ""min_samples_leaf"": 10, ""n_estimators"": 125}",sp06_crisp\science\forest_both\predictions.csv
+Random Forest-lag3-difference-10,2014,"{""max_depth"": 6, ""min_samples_leaf"": 10, ""n_estimators"": 125}",sp06_crisp\science\forest_both\predictions.csv
+Random Forest-lag3-difference-10,2015,"{""max_depth"": 6, ""min_samples_leaf"": 10, ""n_estimators"": 125}",sp06_crisp\science\forest_both\predictions.csv
+Random Forest-lag3-difference-10,2016,"{""max_depth"": 4, ""min_samples_leaf"": 3, ""n_estimators"": 137}",sp06_crisp\science\forest_both\predictions.csv
+Random Forest-lag3-difference-10,2017,"{""max_depth"": 6, ""min_samples_leaf"": 10, ""n_estimators"": 125}",sp06_crisp\science\forest_both\predictions.csv
+Random Forest-lag3-difference-10,2018,"{""max_depth"": 6, ""min_samples_leaf"": 10, ""n_estimators"": 125}",sp06_crisp\science\forest_both\predictions.csv
+ARIMA-lag3-level-0,2013,{},sp06_crisp\science\baselines\predictions.csv
+ARIMA-lag3-level-0,2014,{},sp06_crisp\science\baselines\predictions.csv
+ARIMA-lag3-level-0,2015,{},sp06_crisp\science\baselines\predictions.csv
+ARIMA-lag3-level-0,2016,{},sp06_crisp\science\baselines\predictions.csv
+ARIMA-lag3-level-0,2017,{},sp06_crisp\science\baselines\predictions.csv
+ARIMA-lag3-level-0,2018,{},sp06_crisp\science\baselines\predictions.csv
+HistGradientBoosting-lag3-difference-60,2013,"{""learning_rate"": 0.0106371537160214, ""max_iter"": 50, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-60,2014,"{""learning_rate"": 0.0106371537160214, ""max_iter"": 50, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-60,2015,"{""learning_rate"": 0.011120504875983258, ""max_iter"": 57, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-60,2016,"{""learning_rate"": 0.01014338072379643, ""max_iter"": 58, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-60,2017,"{""learning_rate"": 0.14802738597527149, ""max_iter"": 50, ""max_leaf_nodes"": 4}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-60,2018,"{""learning_rate"": 0.010941675436576655, ""max_iter"": 112, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-30,2013,"{""learning_rate"": 0.0106371537160214, ""max_iter"": 50, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-30,2014,"{""learning_rate"": 0.0106371537160214, ""max_iter"": 50, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-30,2015,"{""learning_rate"": 0.015676459867741428, ""max_iter"": 50, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-30,2016,"{""learning_rate"": 0.019151653729223096, ""max_iter"": 50, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-30,2017,"{""learning_rate"": 0.03767807835312273, ""max_iter"": 138, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-30,2018,"{""learning_rate"": 0.010941675436576655, ""max_iter"": 112, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-10,2013,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-10,2014,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-10,2015,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-10,2016,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-10,2017,"{""learning_rate"": 0.030604698607371153, ""max_iter"": 131, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-difference-10,2018,"{""learning_rate"": 0.016483344114917767, ""max_iter"": 87, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+ETS-lag3-level-0,2013,{},sp06_crisp\science\baselines\predictions.csv
+ETS-lag3-level-0,2014,{},sp06_crisp\science\baselines\predictions.csv
+ETS-lag3-level-0,2015,{},sp06_crisp\science\baselines\predictions.csv
+ETS-lag3-level-0,2016,{},sp06_crisp\science\baselines\predictions.csv
+ETS-lag3-level-0,2017,{},sp06_crisp\science\baselines\predictions.csv
+ETS-lag3-level-0,2018,{},sp06_crisp\science\baselines\predictions.csv
+Random Forest-lag3-level-10,2013,"{""max_depth"": 6, ""min_samples_leaf"": 2, ""n_estimators"": 198}",sp06_crisp\science\forest_both\predictions.csv
+Random Forest-lag3-level-10,2014,"{""max_depth"": 6, ""min_samples_leaf"": 2, ""n_estimators"": 198}",sp06_crisp\science\forest_both\predictions.csv
+Random Forest-lag3-level-10,2015,"{""max_depth"": 6, ""min_samples_leaf"": 2, ""n_estimators"": 198}",sp06_crisp\science\forest_both\predictions.csv
+Random Forest-lag3-level-10,2016,"{""max_depth"": 6, ""min_samples_leaf"": 2, ""n_estimators"": 198}",sp06_crisp\science\forest_both\predictions.csv
+Random Forest-lag3-level-10,2017,"{""max_depth"": 5, ""min_samples_leaf"": 6, ""n_estimators"": 123}",sp06_crisp\science\forest_both\predictions.csv
+Random Forest-lag3-level-10,2018,"{""max_depth"": 5, ""min_samples_leaf"": 6, ""n_estimators"": 123}",sp06_crisp\science\forest_both\predictions.csv
+Media móvil-lag3-level-0,2013,{},sp06_crisp\science\baselines\predictions.csv
+Media móvil-lag3-level-0,2014,{},sp06_crisp\science\baselines\predictions.csv
+Media móvil-lag3-level-0,2015,{},sp06_crisp\science\baselines\predictions.csv
+Media móvil-lag3-level-0,2016,{},sp06_crisp\science\baselines\predictions.csv
+Media móvil-lag3-level-0,2017,{},sp06_crisp\science\baselines\predictions.csv
+Media móvil-lag3-level-0,2018,{},sp06_crisp\science\baselines\predictions.csv
+CatBoost-lag3-level-10,2013,"{""depth"": 4, ""iterations"": 75, ""learning_rate"": 0.1340485228723294}",sp06_crisp\science\trees\predictions.csv
+CatBoost-lag3-level-10,2014,"{""depth"": 3, ""iterations"": 81, ""learning_rate"": 0.09890282677451406}",sp06_crisp\science\trees\predictions.csv
+CatBoost-lag3-level-10,2015,"{""depth"": 3, ""iterations"": 81, ""learning_rate"": 0.09890282677451406}",sp06_crisp\science\trees\predictions.csv
+CatBoost-lag3-level-10,2016,"{""depth"": 4, ""iterations"": 75, ""learning_rate"": 0.1340485228723294}",sp06_crisp\science\trees\predictions.csv
+CatBoost-lag3-level-10,2017,"{""depth"": 4, ""iterations"": 75, ""learning_rate"": 0.1340485228723294}",sp06_crisp\science\trees\predictions.csv
+CatBoost-lag3-level-10,2018,"{""depth"": 4, ""iterations"": 75, ""learning_rate"": 0.1340485228723294}",sp06_crisp\science\trees\predictions.csv
+XGBoost-lag3-level-10,2013,"{""learning_rate"": 0.028305374848756747, ""max_depth"": 2, ""n_estimators"": 103, ""subsample"": 0.7930172231507702}",sp06_crisp\science\trees\predictions.csv
+XGBoost-lag3-level-10,2014,"{""learning_rate"": 0.07362143366719213, ""max_depth"": 2, ""n_estimators"": 51, ""subsample"": 0.8347803277838439}",sp06_crisp\science\trees\predictions.csv
+XGBoost-lag3-level-10,2015,"{""learning_rate"": 0.13145128440179593, ""max_depth"": 2, ""n_estimators"": 105, ""subsample"": 0.9875445312655123}",sp06_crisp\science\trees\predictions.csv
+XGBoost-lag3-level-10,2016,"{""learning_rate"": 0.13145128440179593, ""max_depth"": 2, ""n_estimators"": 105, ""subsample"": 0.9875445312655123}",sp06_crisp\science\trees\predictions.csv
+XGBoost-lag3-level-10,2017,"{""learning_rate"": 0.13145128440179593, ""max_depth"": 2, ""n_estimators"": 105, ""subsample"": 0.9875445312655123}",sp06_crisp\science\trees\predictions.csv
+XGBoost-lag3-level-10,2018,"{""learning_rate"": 0.07362143366719213, ""max_depth"": 2, ""n_estimators"": 51, ""subsample"": 0.8347803277838439}",sp06_crisp\science\trees\predictions.csv
+HistGradientBoosting-engineered-level-10,2013,"{""learning_rate"": 0.033758246859411825, ""max_iter"": 73, ""max_leaf_nodes"": 10}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-10,2014,"{""learning_rate"": 0.1340485228723294, ""max_iter"": 75, ""max_leaf_nodes"": 12}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-10,2015,"{""learning_rate"": 0.1340485228723294, ""max_iter"": 75, ""max_leaf_nodes"": 12}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-10,2016,"{""learning_rate"": 0.1340485228723294, ""max_iter"": 75, ""max_leaf_nodes"": 12}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-10,2017,"{""learning_rate"": 0.1340485228723294, ""max_iter"": 75, ""max_leaf_nodes"": 12}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-10,2018,"{""learning_rate"": 0.1340485228723294, ""max_iter"": 75, ""max_leaf_nodes"": 12}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-30,2013,"{""learning_rate"": 0.032228202371191776, ""max_iter"": 62, ""max_leaf_nodes"": 6}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-30,2014,"{""learning_rate"": 0.1464945032448943, ""max_iter"": 118, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-30,2015,"{""learning_rate"": 0.10602144250522012, ""max_iter"": 129, ""max_leaf_nodes"": 4}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-30,2016,"{""learning_rate"": 0.1186368229735986, ""max_iter"": 128, ""max_leaf_nodes"": 4}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-30,2017,"{""learning_rate"": 0.08320727051180989, ""max_iter"": 133, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-30,2018,"{""learning_rate"": 0.1340485228723294, ""max_iter"": 75, ""max_leaf_nodes"": 12}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-60,2013,"{""learning_rate"": 0.038281227552626765, ""max_iter"": 53, ""max_leaf_nodes"": 12}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-60,2014,"{""learning_rate"": 0.1250785436284038, ""max_iter"": 94, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-60,2015,"{""learning_rate"": 0.10602144250522012, ""max_iter"": 129, ""max_leaf_nodes"": 4}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-60,2016,"{""learning_rate"": 0.1186368229735986, ""max_iter"": 128, ""max_leaf_nodes"": 4}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-60,2017,"{""learning_rate"": 0.08320727051180989, ""max_iter"": 133, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-engineered-level-60,2018,"{""learning_rate"": 0.07486549322041394, ""max_iter"": 133, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-60,2013,"{""alpha"": 0.33903005188979}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-60,2014,"{""alpha"": 0.0010012528873548513}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-60,2015,"{""alpha"": 0.0010012528873548513}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-60,2016,"{""alpha"": 0.0010012528873548513}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-60,2017,"{""alpha"": 0.0010012528873548513}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-60,2018,"{""alpha"": 0.2867671103876918}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-30,2013,"{""alpha"": 0.35714743494793805}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-30,2014,"{""alpha"": 0.0010090122148735008}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-30,2015,"{""alpha"": 0.0010090122148735008}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-30,2016,"{""alpha"": 0.0010090122148735008}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-30,2017,"{""alpha"": 0.0010090122148735008}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-30,2018,"{""alpha"": 0.2867671103876918}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-10,2013,"{""alpha"": 0.46617653101260037}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-10,2014,"{""alpha"": 0.0012031118915115909}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-10,2015,"{""alpha"": 0.0012031118915115909}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-10,2016,"{""alpha"": 0.0012031118915115909}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-10,2017,"{""alpha"": 0.0012031118915115909}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag5-level-10,2018,"{""alpha"": 0.46617653101260037}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-30,2013,"{""alpha"": 0.10861370346114678, ""l1_ratio"": 0.0646889876995973}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-30,2014,"{""alpha"": 0.020901849055090908, ""l1_ratio"": 0.13060591655849915}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-30,2015,"{""alpha"": 0.0013068138195904847, ""l1_ratio"": 0.07054631629283188}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-30,2016,"{""alpha"": 0.0013068138195904847, ""l1_ratio"": 0.07054631629283188}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-30,2017,"{""alpha"": 0.0013068138195904847, ""l1_ratio"": 0.07054631629283188}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-30,2018,"{""alpha"": 0.0010120113116765482, ""l1_ratio"": 0.05398318895390801}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-10,2013,"{""alpha"": 0.01555664854800665, ""l1_ratio"": 0.7416365458813097}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-10,2014,"{""alpha"": 0.0167159915834891, ""l1_ratio"": 0.24171448302178922}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-10,2015,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-10,2016,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-10,2017,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-10,2018,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-60,2013,"{""alpha"": 0.10861370346114678, ""l1_ratio"": 0.0646889876995973}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-60,2014,"{""alpha"": 0.03294750989379745, ""l1_ratio"": 0.913698384469771}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-60,2015,"{""alpha"": 0.0013068138195904847, ""l1_ratio"": 0.07054631629283188}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-60,2016,"{""alpha"": 0.0013068138195904847, ""l1_ratio"": 0.07054631629283188}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-60,2017,"{""alpha"": 0.0017069309838448636, ""l1_ratio"": 0.0519897270280521}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-engineered-level-60,2018,"{""alpha"": 0.0010120113116765482, ""l1_ratio"": 0.05398318895390801}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-10,2013,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-10,2014,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-10,2015,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-10,2016,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-10,2017,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-10,2018,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-60,2013,"{""alpha"": 91.50503512184889}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-60,2014,"{""alpha"": 49.11955425363717}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-60,2015,"{""alpha"": 1.169170202002842}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-60,2016,"{""alpha"": 1.19958881825994}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-60,2017,"{""alpha"": 1.126698020535734}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-60,2018,"{""alpha"": 0.11371982327953666}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-10,2013,"{""alpha"": 75.10951071794432}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-10,2014,"{""alpha"": 75.10951071794432}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-10,2015,"{""alpha"": 0.6449499516934315}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-10,2016,"{""alpha"": 0.6449499516934315}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-10,2017,"{""alpha"": 0.6449499516934315}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-10,2018,"{""alpha"": 0.46617653101260037}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-30,2013,"{""alpha"": 91.50503512184889}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-30,2014,"{""alpha"": 57.03677536241645}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-30,2015,"{""alpha"": 1.0907692324498466}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-30,2016,"{""alpha"": 1.19958881825994}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-30,2017,"{""alpha"": 1.0907692324498466}",sp06_crisp\science\ablations\predictions.csv
+Ridge-engineered-level-30,2018,"{""alpha"": 0.12409367666028652}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-60,2013,"{""alpha"": 0.03742424476639964, ""l1_ratio"": 0.5710165461040562}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-60,2014,"{""alpha"": 0.0011689266174773774, ""l1_ratio"": 0.27593804556268603}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-60,2015,"{""alpha"": 0.001039048545606528, ""l1_ratio"": 0.054309820116694454}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-60,2016,"{""alpha"": 0.0012739667446660617, ""l1_ratio"": 0.05298505383640351}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-60,2017,"{""alpha"": 0.0010245969546246875, ""l1_ratio"": 0.059751490064436225}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-60,2018,"{""alpha"": 0.0010324822427532133, ""l1_ratio"": 0.05143185930530697}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-30,2013,"{""alpha"": 0.03742424476639964, ""l1_ratio"": 0.5710165461040562}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-30,2014,"{""alpha"": 0.0011689266174773774, ""l1_ratio"": 0.27593804556268603}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-30,2015,"{""alpha"": 0.0013278640384673025, ""l1_ratio"": 0.07722175637950868}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-30,2016,"{""alpha"": 0.0011689266174773774, ""l1_ratio"": 0.1107623051932741}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-30,2017,"{""alpha"": 0.0010245969546246875, ""l1_ratio"": 0.059751490064436225}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag5-level-30,2018,"{""alpha"": 0.0010245969546246875, ""l1_ratio"": 0.059751490064436225}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-30,2013,"{""alpha"": 0.02810351745933685, ""l1_ratio"": 0.9123757461840322}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-30,2014,"{""alpha"": 0.03170911289751912, ""l1_ratio"": 0.877491171339666}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-30,2015,"{""alpha"": 0.012216272205030349, ""l1_ratio"": 0.9487171339309833}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-30,2016,"{""alpha"": 0.0013278640384673025, ""l1_ratio"": 0.07722175637950868}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-30,2017,"{""alpha"": 0.0010245969546246875, ""l1_ratio"": 0.059751490064436225}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-30,2018,"{""alpha"": 0.0010245969546246875, ""l1_ratio"": 0.059751490064436225}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-60,2013,"{""alpha"": 0.02810351745933685, ""l1_ratio"": 0.9123757461840322}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-60,2014,"{""alpha"": 0.011941714792053545, ""l1_ratio"": 0.9127844322691482}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-60,2015,"{""alpha"": 0.014205892436255857, ""l1_ratio"": 0.947989170241084}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-60,2016,"{""alpha"": 0.0010137366251630794, ""l1_ratio"": 0.05018710706827971}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-60,2017,"{""alpha"": 0.0010245969546246875, ""l1_ratio"": 0.059751490064436225}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-60,2018,"{""alpha"": 0.0010245969546246875, ""l1_ratio"": 0.059751490064436225}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-60,2013,"{""alpha"": 46.95692699113615}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-60,2014,"{""alpha"": 0.0010012528873548513}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-60,2015,"{""alpha"": 0.0010012528873548513}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-60,2016,"{""alpha"": 0.0010012528873548513}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-60,2017,"{""alpha"": 0.0010012528873548513}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-60,2018,"{""alpha"": 0.0010012528873548513}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-30,2013,"{""alpha"": 46.95692699113615}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-30,2014,"{""alpha"": 0.0010090122148735008}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-30,2015,"{""alpha"": 0.0010090122148735008}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-30,2016,"{""alpha"": 0.0010090122148735008}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-30,2017,"{""alpha"": 0.0010090122148735008}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-30,2018,"{""alpha"": 0.0010090122148735008}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-10,2013,"{""alpha"": 21.52106492506402}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-10,2014,"{""alpha"": 0.0012031118915115909}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-10,2015,"{""alpha"": 0.0012031118915115909}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-10,2016,"{""alpha"": 0.0012031118915115909}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-10,2017,"{""alpha"": 0.0012031118915115909}",sp06_crisp\science\ablations\predictions.csv
+Ridge-lag3-level-10,2018,"{""alpha"": 0.0012031118915115909}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-10,2013,"{""alpha"": 0.08338007432346771, ""l1_ratio"": 0.32905166945231074}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-10,2014,"{""alpha"": 0.01555664854800665, ""l1_ratio"": 0.7416365458813097}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-10,2015,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-10,2016,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-10,2017,"{""alpha"": 0.01555664854800665, ""l1_ratio"": 0.7416365458813097}",sp06_crisp\science\ablations\predictions.csv
+Elastic Net-lag3-level-10,2018,"{""alpha"": 0.0012031118915115909, ""l1_ratio"": 0.26110495030534386}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-10,2013,"{""learning_rate"": 0.1340485228723294, ""max_iter"": 75, ""max_leaf_nodes"": 12}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-10,2014,"{""learning_rate"": 0.09890282677451406, ""max_iter"": 81, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-10,2015,"{""learning_rate"": 0.09890282677451406, ""max_iter"": 81, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-10,2016,"{""learning_rate"": 0.09890282677451406, ""max_iter"": 81, ""max_leaf_nodes"": 8}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-10,2017,"{""learning_rate"": 0.028305374848756747, ""max_iter"": 103, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-10,2018,"{""learning_rate"": 0.028305374848756747, ""max_iter"": 103, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-30,2013,"{""learning_rate"": 0.0763781767171213, ""max_iter"": 135, ""max_leaf_nodes"": 9}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-30,2014,"{""learning_rate"": 0.11704499691754494, ""max_iter"": 111, ""max_leaf_nodes"": 12}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-30,2015,"{""learning_rate"": 0.11157713626776401, ""max_iter"": 61, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-30,2016,"{""learning_rate"": 0.11252420378283785, ""max_iter"": 86, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-30,2017,"{""learning_rate"": 0.0789229095060265, ""max_iter"": 101, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-30,2018,"{""learning_rate"": 0.023189160086278304, ""max_iter"": 132, ""max_leaf_nodes"": 4}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-60,2013,"{""learning_rate"": 0.03745998818540244, ""max_iter"": 145, ""max_leaf_nodes"": 10}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-60,2014,"{""learning_rate"": 0.06343852799456859, ""max_iter"": 145, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-60,2015,"{""learning_rate"": 0.05783456889954667, ""max_iter"": 89, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-60,2016,"{""learning_rate"": 0.06598838711002465, ""max_iter"": 97, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-60,2017,"{""learning_rate"": 0.07269424080831026, ""max_iter"": 61, ""max_leaf_nodes"": 4}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-60,2018,"{""learning_rate"": 0.03398539102471407, ""max_iter"": 109, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-30,2013,"{""learning_rate"": 0.03745998818540244, ""max_iter"": 145, ""max_leaf_nodes"": 10}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-30,2014,"{""learning_rate"": 0.04245965967007806, ""max_iter"": 94, ""max_leaf_nodes"": 10}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-30,2015,"{""learning_rate"": 0.060008560194220156, ""max_iter"": 121, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-30,2016,"{""learning_rate"": 0.05118316146776429, ""max_iter"": 95, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-30,2017,"{""learning_rate"": 0.07269424080831026, ""max_iter"": 61, ""max_leaf_nodes"": 4}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-30,2018,"{""learning_rate"": 0.06844098520928128, ""max_iter"": 54, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-10,2013,"{""learning_rate"": 0.030604698607371153, ""max_iter"": 131, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-10,2014,"{""learning_rate"": 0.030604698607371153, ""max_iter"": 131, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-10,2015,"{""learning_rate"": 0.045798557305395754, ""max_iter"": 74, ""max_leaf_nodes"": 10}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-10,2016,"{""learning_rate"": 0.030604698607371153, ""max_iter"": 131, ""max_leaf_nodes"": 7}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-10,2017,"{""learning_rate"": 0.04381094758786567, ""max_iter"": 74, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag3-level-10,2018,"{""learning_rate"": 0.028305374848756747, ""max_iter"": 103, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-60,2013,"{""learning_rate"": 0.08332691007384177, ""max_iter"": 122, ""max_leaf_nodes"": 5}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-60,2014,"{""learning_rate"": 0.11742908362411232, ""max_iter"": 132, ""max_leaf_nodes"": 11}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-60,2015,"{""learning_rate"": 0.10775555441859198, ""max_iter"": 113, ""max_leaf_nodes"": 3}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-60,2016,"{""learning_rate"": 0.1076765000036196, ""max_iter"": 111, ""max_leaf_nodes"": 10}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-60,2017,"{""learning_rate"": 0.11851872900350272, ""max_iter"": 144, ""max_leaf_nodes"": 4}",sp06_crisp\science\ablations\predictions.csv
+HistGradientBoosting-lag5-level-60,2018,"{""learning_rate"": 0.1498648285625876, ""max_iter"": 109, ""max_leaf_nodes"": 4}",sp06_crisp\science\ablations\predictions.csv

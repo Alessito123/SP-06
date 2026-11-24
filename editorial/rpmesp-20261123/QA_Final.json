@@ -1,0 +1,301 @@
+{
+  "scientific_reference": "56c31dff521ec31aff92231544ac4736dacdd381",
+  "editorial_branch": "codex/rpmesp-editorial-20261123",
+  "metrics": {
+    "reference_commit": "56c31dff521ec31aff92231544ac4736dacdd381",
+    "raw_rows": 440,
+    "experiments": 65,
+    "predictions_checked": 7800,
+    "trial_counts": {
+      "baselines": 0,
+      "ablations": 10800,
+      "trees": 240,
+      "forest_both": 120
+    },
+    "metric_fields_recomputed": 260,
+    "bootstrap_intervals_verified": 65,
+    "max_metric_difference": 2.220446049250313e-16,
+    "who_cells": 38,
+    "who_metrics_verified": true,
+    "originals_unchanged": 78,
+    "training_reexecuted": false
+  },
+  "render": {
+    "SP06_Manuscrito_RPMESP_Listo_Para_Revision_Final": {
+      "pages": 17,
+      "chars": [
+        1087,
+        3082,
+        3269,
+        2689,
+        2772,
+        2923,
+        3170,
+        3211,
+        3141,
+        2766,
+        1300,
+        1038,
+        1480,
+        806,
+        298,
+        374,
+        326
+      ],
+      "outside_page": []
+    },
+    "SP06_Material_Suplementario_RPMESP": {
+      "pages": 27,
+      "chars": [
+        1864,
+        2007,
+        896,
+        1503,
+        1403,
+        2323,
+        1860,
+        1867,
+        1758,
+        1791,
+        1700,
+        1614,
+        1668,
+        1560,
+        1856,
+        1444,
+        1452,
+        1846,
+        1616,
+        1995,
+        1649,
+        1052,
+        1755,
+        1975,
+        2031,
+        2153,
+        700
+      ],
+      "outside_page": []
+    },
+    "SP06_Carta_Presentacion_RPMESP": {
+      "pages": 1,
+      "chars": [
+        2589
+      ],
+      "outside_page": []
+    },
+    "SP06_Documentacion_Autores_Pendiente": {
+      "pages": 3,
+      "chars": [
+        2046,
+        2728,
+        1423
+      ],
+      "outside_page": []
+    },
+    "SP06_Tablas_Editables_RPMESP": {
+      "pages": 3,
+      "chars": [
+        1076,
+        1453,
+        805
+      ],
+      "outside_page": []
+    }
+  },
+  "structure": {
+    "main_tables": 3,
+    "main_figures": 3,
+    "main_native_equations": 7,
+    "supplement_tables": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "supplement_native_equations": 22,
+    "equation_5_native_absolute_delimiters": true,
+    "equation_5_sum_with_limits": true,
+    "main_table_values_unchanged": true
+  },
+  "word_counts": {
+    "body": 2778,
+    "resumen": 194,
+    "abstract": 183,
+    "messages": 73
+  },
+  "checklist": {
+    "expected": {
+      "CUMPLE": 22,
+      "PENDIENTE": 11,
+      "NO VERIFICADO": 7
+    },
+    "summary": [
+      [
+        "NO ENVIAR",
+        null,
+        22,
+        null,
+        11,
+        null,
+        7
+      ]
+    ],
+    "one_confirmation_test": [
+      [
+        "NO ENVIAR",
+        null,
+        23,
+        null,
+        10,
+        null,
+        7
+      ]
+    ],
+    "formula_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  "images": {
+    "Figura_1_Flujo.jpg": {
+      "pixels": [
+        3607,
+        3550
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "Figura_1_Flujo.png": {
+      "pixels": [
+        3607,
+        3550
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Figura_1_Flujo.tif": {
+      "pixels": [
+        3607,
+        3550
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "Figura_2_Diferencias.jpg": {
+      "pixels": [
+        4856,
+        2922
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "Figura_2_Diferencias.png": {
+      "pixels": [
+        4856,
+        2922
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Figura_2_Diferencias.tif": {
+      "pixels": [
+        4856,
+        2922
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "Figura_3_Intervalos.jpg": {
+      "pixels": [
+        4950,
+        2195
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "Figura_3_Intervalos.png": {
+      "pixels": [
+        4950,
+        2195
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Figura_3_Intervalos.tif": {
+      "pixels": [
+        4950,
+        2195
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "Figura_S1_Rolling.jpg": {
+      "pixels": [
+        5402,
+        3961
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    "Figura_S1_Rolling.png": {
+      "pixels": [
+        5402,
+        3961
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Figura_S1_Rolling.tif": {
+      "pixels": [
+        5402,
+        3961
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    }
+  },
+  "current_rpmesp_norms_certified": false,
+  "submission_authorized": false,
+  "ai_and_author_declarations_approved": false
+}

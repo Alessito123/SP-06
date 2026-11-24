@@ -1,0 +1,84 @@
+{
+  "consulted_date": "2026-11-23",
+  "journal": "RPMESP",
+  "current_instructions": {
+    "url": "https://rpmesp.ins.gob.pe/index.php/rpmesp/pages/view/instrucciones",
+    "status": "blocked",
+    "evidence": "HTTP 468 y pantalla SafeLine WAF en navegador",
+    "current_rules_certified": false
+  },
+  "current_submissions": {
+    "url": "https://rpmesp.ins.gob.pe/index.php/rpmesp/about/submissions",
+    "status": "HTTP 468"
+  },
+  "historical_reference": {
+    "url": "https://rpmesp.ins.gob.pe/index.php/rpmesp/article/viewFile/5025/3447",
+    "edition": "2019;36(4):719-726",
+    "usage": "Referencia provisional de estilo; no se declara vigente"
+  },
+  "scielo_alternative": {
+    "url": "https://www.scielo.org.pe/revistas/rins/einstruc.htm",
+    "status": "accessible",
+    "limitation": "Contenido legado 2004–2014, con enlace a instrucciones2014.pdf; no prueba normativa actual"
+  },
+  "technical_decisions": {
+    "body": "Arial 10, interlineado 1.5",
+    "tables": "Arial 10, interlineado 1.1, encabezado repetido, filas indivisibles",
+    "page": "Carta, márgenes 2.5 cm, numeración simple",
+    "images": "PNG/JPG/TIFF 600 dpi, SVG editable",
+    "unverified_current_requirements": [
+      "margins",
+      "paper",
+      "precise image formats",
+      "supplementary formats and limits",
+      "AI-specific policy",
+      "official declaration template",
+      "current numerical limits"
+    ]
+  },
+  "descriptors": [
+    {
+      "es": "Aprendizaje Automático",
+      "en": "Machine Learning",
+      "decs_id": "56143",
+      "mesh_id": "D000069550",
+      "official_decs_verified": true
+    },
+    {
+      "es": "Mortalidad",
+      "en": "Mortality",
+      "decs_id": "28632",
+      "mesh_id": "D009026",
+      "official_decs_verified": true
+    },
+    {
+      "es": "Predicción",
+      "en": "Forecasting",
+      "decs_id": "5678",
+      "mesh_id": "D005544",
+      "official_decs_verified": true
+    },
+    {
+      "es": "Enfermedades no Transmisibles",
+      "en": "Noncommunicable Diseases",
+      "mesh_id": "D000073296",
+      "official_mesh_verified": true,
+      "official_decs_verified": false,
+      "limitation": "Spanish equivalence corroborated by published DeCS screenshot; live primary lookup unavailable during maintenance"
+    }
+  ],
+  "general_external_guidance": [
+    {
+      "url": "https://www.icmje.org/recommendations/browse/artificial-intelligence/ai-use-by-authors.html",
+      "scope": "General ICMJE guidance, not asserted to replace current RPMESP policy"
+    },
+    {
+      "url": "https://www.icmje.org/disclosure-of-interest/",
+      "scope": "Official COI form"
+    },
+    {
+      "url": "https://credit.niso.org/",
+      "scope": "CRediT taxonomy"
+    }
+  ]
+}
